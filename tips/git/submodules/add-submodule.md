@@ -6,7 +6,7 @@ The newly created submodules are headless, so if you need to work on them you ne
 
 ### Syntax
 ```bash
-git submodule add \<repository\> \[\<path\>\]
+git submodule add <repository> [<path>]
 ```
     
 |               | Option     | Description                                         |
@@ -32,4 +32,6 @@ $> git submodule init
 Git submodule \( [https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule) \)
 
 ### Tags
-\#git, \#submodule
+[#tip](../../tips.md)  
+[#git](../git.md)  
+[#submodule](submodule.md)  
