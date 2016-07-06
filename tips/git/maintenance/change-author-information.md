@@ -53,7 +53,7 @@ $> rm -rf my-repository.git
 [1] [change-author.sh](resources/change-author.sh)
 
 ### References
-Change author information \( [https://help.github.com/articles/changing-author-info](https://help.github.com/articles/changing-author-info) /)
+Change author information \( [https://help.github.com/articles/changing-author-info](https://help.github.com/articles/changing-author-info) \)
 
 ### Tags
 [#tip](../../tips.md)  
