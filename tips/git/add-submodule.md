@@ -8,16 +8,12 @@
   ```bash
   git submodule add \<repository\> \[\<path\>\]
   ```  
+    
   
-  | First Header  | Second Header |
-  | ------------- | ------------- |
-  | Content Cell  | Content Cell  |
-  | Content Cell  | Content Cell  |
-  
-| Required      | Option     | Description                                         |
-| ------------- | -----------| --------------------------------------------------- |
-| :exclamation: | repository | Url to the repository we want to add as a submodule |
-|               | path       | The path where the submodule will be initialized    |   
+  | Required      | Option     | Description                                         |
+  | ------------- | -----------| --------------------------------------------------- |
+  | :exclamation: | repository | Url to the repository we want to add as a submodule |
+  |               | path       | The path where the submodule will be initialized    |   
     
   <sub>* The list of options is not extensive, for more options please review the references.</sub>
   
