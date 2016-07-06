@@ -7,13 +7,14 @@
 ### Syntax
   ```bash
   git submodule add \<repository\> \[\<path\>\]
-  ```
+  ```  
+  
   | Option     | Required | Description                                         |  
   | ---------- | :------: | --------------------------------------------------- |  
   | repository | yes      | url to the repository we want to add as a submodule |  
   | path       | no       | the path where the submodule will be initialized    |  
   
-  <sub>The list of options is not extensive, for more options please review the references.</sub>
+  <sub>* The list of options is not extensive, for more options please review the references.</sub>
   
 ### Example
   ```bash
