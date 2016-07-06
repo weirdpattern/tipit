@@ -7,9 +7,8 @@
 ### Syntax
   ```bash
   git submodule add \<repository\> \[\<path\>\]
-  ```  
+  ```
     
-  Details   
   | Required      | Option     | Description                                         |
   | ------------- | -----------| --------------------------------------------------- |
   | :exclamation: | repository | Url to the repository we want to add as a submodule |
