@@ -9,7 +9,7 @@ The newly created submodules are headless, so if you need to work on them you ne
 git submodule add \<repository\> \[\<path\>\]
 ```
     
-| Required      | Option     | Description                                         |
+|               | Option     | Description                                         |
 | :-----------: | -----------| --------------------------------------------------- |
 | :exclamation: | repository | Url to the repository we want to add as a submodule |
 |               | path       | The path where the submodule will be initialized    |   
