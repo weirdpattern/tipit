@@ -9,10 +9,11 @@
   git submodule add \<repository\> \[\<path\>\]
   ```  
   
-  |   Required    | Option     | Description                                         |   
-  | :-----------: | ---------- | --------------------------------------------------- |   
-  | :exclamation: | repository | Url to the repository we want to add as a submodule |   
+  |               | Option     | Description                                         |
+  | ------------- | -----------| --------------------------------------------------- |
+  | :exclamation: | repository | Url to the repository we want to add as a submodule |
   |               | path       | The path where the submodule will be initialized    |   
+  
   
   <sub>* The list of options is not extensive, for more options please review the references.</sub>
   
