@@ -1,8 +1,7 @@
-## Git (3)
+## Git
 
-- [Change author information](change-author-information.md)
-- [Add git submodule](add-submodule.md)
-- [Update git submodule](update-submodule.md)
+- [Maintenance](maintenance/maintenance.md)
+- [Submodule](submodule/submodule.md)
 
 ### Tags
 [#tip](../tips.md)  
