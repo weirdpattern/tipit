@@ -8,9 +8,11 @@
   ```bash
   git submodule add \<repository\> \[\<path\>\]
   ```
-  repository (required) -  url to the repository we want to add as a submodule  
-  path - the path where the submodule will be initialized
-
+  | Option     | Required | Description                                         |
+  |------------|:--------:|-----------------------------------------------------|
+  | repository | yes      | url to the repository we want to add as a submodule |
+  | path       | no       | the path where the submodule will be initialized    |
+  
 ### Example
   ```bash
   $> cd my-repository
@@ -23,12 +25,11 @@
   $> git submodule init
   ```
 
-### Notes
-  <a name='n1'></a>\[1\] The list of options is not extensive, for more options please visit[Git submodule](https://git-scm.com/docs/git-submodule)
+#### Notes
+  <a name='n1'></a>1. The list of options is not extensive, for more options please review the references. 
 
-### References
-  Git submodule[https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule)
+#### References
+  Git submodule \<[https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule)\>
 
-### Tags
-  git  
-  submodule
+###### Tags
+  git, submodule
