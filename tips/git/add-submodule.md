@@ -9,7 +9,7 @@
   git submodule add \<repository\> \[\<path\>\]
   ```
   | Option<sup>[1](#user-content-n1)</sup> | Required | Description                                         |  
-  |----------------------------------------|:--------:|-----------------------------------------------------|  
+  | -------------------------------------- | :------: | --------------------------------------------------- |  
   | repository                             | yes      | url to the repository we want to add as a submodule |  
   | path                                   | no       | the path where the submodule will be initialized    |  
   
