@@ -9,10 +9,10 @@
   git submodule add \<repository\> \[\<path\>\]
   ```  
   
-  | Option     | Required | Description                                         |  
-  | ---------- | :------: | --------------------------------------------------- |  
-  | repository | yes      | url to the repository we want to add as a submodule |  
-  | path       | no       | the path where the submodule will be initialized    |  
+  | Option     | Required  | Description                                         |   
+  | ---------- | :-------: | --------------------------------------------------- |   
+  | repository | [x]       | Url to the repository we want to add as a submodule |   
+  | path       |           | The path where the submodule will be initialized    |   
   
   <sub>* The list of options is not extensive, for more options please review the references.</sub>
   
@@ -29,7 +29,7 @@
   ```
 
 #### References
-  Git submodule \<[https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule)\>
+  Git submodule \( [https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule) \)
 
 #### Tags
   \#git, \#submodule
