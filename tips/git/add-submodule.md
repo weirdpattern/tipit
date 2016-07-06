@@ -9,6 +9,11 @@
   git submodule add \<repository\> \[\<path\>\]
   ```  
   
+  | First Header  | Second Header |
+  | ------------- | ------------- |
+  | Content Cell  | Content Cell  |
+  | Content Cell  | Content Cell  |
+  
 | Required      | Option     | Description                                         |
 | ------------- | -----------| --------------------------------------------------- |
 | :exclamation: | repository | Url to the repository we want to add as a submodule |
