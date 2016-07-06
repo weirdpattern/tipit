@@ -28,8 +28,8 @@ $> cd library
 $> git submodule init
 ```
 
-#### References
+### References
 Git submodule \( [https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule) \)
 
-#### Tags
+### Tags
 \#git, \#submodule
