@@ -30,7 +30,7 @@ Users can expand/collapse examples, quotes or long descriptions that are useful,
 ```
 
 ### Output
-[Collapsible content](https://cloud.githubusercontent.com/assets/19519411/16642449/a478461e-43d0-11e6-8afb-d97dcb8b5c50.gif)
+![Collapsible content](https://cloud.githubusercontent.com/assets/19519411/16642449/a478461e-43d0-11e6-8afb-d97dcb8b5c50.gif)
 
 ### References
 [@jbrancha](https://twitter.com/jbrancha) \([tweet](https://twitter.com/jbrancha/status/749622395879694336)\)
