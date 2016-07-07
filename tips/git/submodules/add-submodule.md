@@ -29,9 +29,9 @@ $> git submodule init
 ```
 
 ### References
-Git submodule \( [https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule) \)
+Git submodule \([https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule)\)
 
 ### Tags
 [#tip](../../tips.md)  
 [#git](../git.md)  
-[#submodule](submodule.md)  
+[#submodules](submodules.md)  

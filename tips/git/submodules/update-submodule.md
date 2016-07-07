@@ -29,9 +29,9 @@ $> git submodule update --remote --init --recursive
 <a name='n1'></a>\[1\] Use this option only if you have worked directly on the submodule (not recommended)
 
 ### References
-Git submodule \( [https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule) \)
+Git submodule \([https://git-scm.com/docs/git-submodule](https://git-scm.com/docs/git-submodule)\)
 
 ### Tags
 [#tip](../../tips.md)  
 [#git](../git.md)  
-[#submodule](submodule.md)  
+[#submodules](submodules.md)  
