@@ -17,7 +17,7 @@ Users can expand/collapse examples, quotes or long descriptions that are useful,
 ### Example
 ```html
 <details>
-  <summary>Example</summary>
+  <summary>Test</summary>
   `` `javascript
   let current;
   const array = [ 1, 2, 3, 4 ];
