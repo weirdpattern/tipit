@@ -1,4 +1,4 @@
-## Github
+## Javascript
 
 - [General](general/general.md)
 

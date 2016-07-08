@@ -38,4 +38,4 @@ Users can expand/collapse examples, quotes or long descriptions that are useful,
 ### Tags
 [#tip](../../tips.md)  
 [#github](../github.md)  
-[#tricks](tricks.md)  
+[#general](general.md)  

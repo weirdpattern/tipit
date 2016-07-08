@@ -1,4 +1,4 @@
-## Github tricks (1)
+## Github general (1)
 
 - [Collapsible content in markdown](collapsible-content.md)
 
