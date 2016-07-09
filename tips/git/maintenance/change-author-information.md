@@ -5,28 +5,33 @@ Updates the author information (username and email address) recorded in existing
 
 ### Steps
 1. Open a Terminal.  
+
 2. Create a fresh, BARE clone of your repository.  
-   ```bash
-   $> git clone --bare https://github.com/user/my-repository.git
-   $> cd my-repository.git
-   ```
+```bash
+$> git clone --bare https://github.com/user/my-repository.git
+$> cd my-repository.git
+```
+
 3. Run script [change-author.sh](resources/change-author.sh), don't forget to update the author information.  
-   ```bash
-   $> bash [#change-author.sh] "old_email@company.com" "corrected name" "corrected_email@company.com"
-   ```
+```bash
+$> bash [#change-author.sh] "old_email@company.com" "corrected name" "corrected_email@company.com"
+```
+
 4. Review the new Git history for errors.  
-   ```bash
-   $> git log
-   ```
+```bash
+$> git log
+```
+
 5. Push the corrected history to GitHub.  
-   ```bash
-   $> git push --force --tags origin \'refs/heads/*\'
-   ```
+```bash
+$> git push --force --tags origin \'refs/heads/*\'
+```
+
 6. Clean up the temporary clone.  
-   ```bash
-   $> cd ..
-   $> rm -rf my-repository.git
-   ```
+```bash
+$> cd ..
+$> rm -rf my-repository.git
+```
    
 ### Example
 ```bash
