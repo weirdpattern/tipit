@@ -1,7 +1,7 @@
 ## Git
 
 - [Maintenance](maintenance/maintenance.md)
-- [Submodule](submodules/submodulea.md)
+- [Submodule](submodules/submodules.md)
 
 ### Tags
 [#tip](../tips.md)  

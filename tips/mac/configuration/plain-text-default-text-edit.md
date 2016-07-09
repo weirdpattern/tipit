@@ -6,15 +6,15 @@ This is important if you use TextEdit to do some coding TextEdit default rich fo
 
 ### Steps
 1. Open a Terminal.
-2. Update the defaults settings using
+2. Update the defaults settings using  
    ```bash
    $> defaults write com.apple.TextEdit RichText -int 0
    ```
-3. Force a stop of TextEdit (if open):
+3. Force a stop of TextEdit (if open):  
    ```bash
    $> killall TextEdit
    ```
-4. To revert the change use:
+4. To revert the change use:  
    ```bash
    $> defaults delete com.apple.TextEdit RichText
    ```
