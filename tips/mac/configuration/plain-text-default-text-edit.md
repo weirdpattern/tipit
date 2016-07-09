@@ -20,7 +20,7 @@ This is important if you use TextEdit to do some coding TextEdit default rich fo
    ```
 
 ### References
-Use plain text as default format in TextEdit \([http://www.defaults-write.com/plain-text-default-textedit/](http://www.defaults-write.com/plain-text-default-textedit/)\)
+Use plain text as default format in TextEdit \([http://www.defaults-write.com/plain-text-default-textedit](http://www.defaults-write.com/plain-text-default-textedit)\)
 
 ### Tags
 [#tip](../../tips.md)  
