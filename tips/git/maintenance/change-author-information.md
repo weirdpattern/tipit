@@ -27,7 +27,7 @@ $> git log
 $> git push --force --tags origin \'refs/heads/*\'
 ```
 
-6. Clean up the temporary clone.  
+6. Remove the temporary clone.  
 ```bash
 $> cd ..
 $> rm -rf my-repository.git
