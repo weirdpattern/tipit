@@ -52,6 +52,8 @@ $> git log
 $> git push --force --tags origin 'refs/heads/*'
 $> cd ..
 $> rm -rf my-repository.git
+$> cd ..
+$> rm -rf temp
 ```
 
 ### Resources
