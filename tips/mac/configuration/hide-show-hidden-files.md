@@ -9,7 +9,7 @@ defaults write com.apple.finder AppleShowAllFiles -bool <boolean>
 ```
 
 |               | Option  | Description                                |
-| :-----------: | --------| ------------------------------------------ |
+| :-----------: | ------- | ------------------------------------------ |
 | :exclamation: | boolean | True/False value to Show/Hide respectively |
 
 ### Steps

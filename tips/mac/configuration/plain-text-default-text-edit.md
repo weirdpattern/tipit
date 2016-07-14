@@ -2,7 +2,7 @@
 
 ### Summary
 Force TextEdit application to use plain text as default format.
-This is important if you use TextEdit to do some coding TextEdit default rich format includes unicode characters that can render your code unusable.
+This is important when you use TextEdit as a coding editor because the default rich format includes unicode characters that can render your code unusable.
 
 ### Syntax
 ```bash
@@ -10,7 +10,7 @@ defaults write com.apple.TextEdit RichText -bool <boolean>
 ```
 
 |               | Option  | Description                                  |
-| :-----------: | --------| -------------------------------------------- |
+| :-----------: | ------- | -------------------------------------------- |
 | :exclamation: | boolean | True/False value to Enable/Disable rich text |
 
 ### Steps
