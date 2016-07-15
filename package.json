@@ -1,25 +1,22 @@
 {
   "version": "0.0.1",
   "license": "MIT",
-
   "name": "tipit",
-  "description": "",
+  "description": "A compilation of tips and tricks I've learned",
   "author": "Patricio Trevino <patricio@weirdpattern.com>",
-
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/weirdpattern/tipit.git"
+  },
   "bin": {
     "tipit": "./bin/tipit"
   },
-
   "engines": {
     "node": "^4.4.3"
   },
-
   "dependencies": {
-    "glob": "^7.0.3",
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
-    "babel-core": "^6.9.1",
-    "babel-polyfill": "^6.9.1",
-    "babel-preset-es2015": "^6.9.0"
+    "glob": "^7.0.5"
   }
 }
