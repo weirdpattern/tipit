@@ -13,19 +13,19 @@ defaults write com.apple.finder AppleShowAllFiles -bool <boolean>
 | :exclamation: | boolean | True/False value to Show/Hide respectively |
 
 ### Steps
-1. Open a Terminal.
+- Open a Terminal.
 
-2. To hide your hidden files  
+- To hide your hidden files  
 ```bash
 $> defaults write com.apple.finder AppleShowAllFiles -bool false 
 ```
 
-3. To show your hidden files
+- To show your hidden files
 ```bash
 $> defaults write com.apple.finder AppleShowAllFiles -bool true
 ```
 
-4. Restart the finder
+- Restart the finder
 ```bash
 $> killall Finder
 ```
