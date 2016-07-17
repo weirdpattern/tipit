@@ -10,7 +10,7 @@ git submodule add <repository> [<path>]
 ```
     
 |               | Option     | Description                                         |
-| :-----------: | -----------| --------------------------------------------------- |
+| :-----------: | ---------- | --------------------------------------------------- |
 | :exclamation: | repository | Url to the repository we want to add as a submodule |
 |               | path       | The path where the submodule will be initialized    |   
     
