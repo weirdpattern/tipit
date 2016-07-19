@@ -18,17 +18,17 @@ defaults write com.apple.TextEdit ShowRuler -bool <boolean>
 
 - Update the defaults settings using  
 ```bash
-$> defaults write com.apple.TextEdit ShowRuler -bool false
+$ defaults write com.apple.TextEdit ShowRuler -bool false
 ```
 
 - Force a stop of TextEdit (if open):  
 ```bash
-$> killall TextEdit
+$ killall TextEdit
 ```
 
 - To revert the change use:  
 ```bash
-$> defaults delete com.apple.TextEdit ShowRuler -bool true
+$ defaults delete com.apple.TextEdit ShowRuler -bool true
 ```
 
 ### References

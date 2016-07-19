@@ -23,13 +23,13 @@ In your package.json
 
 In the command line (terminal)
 ```bash
-$> npm run build
+$ npm run build
    Failed because X, Y or Z...
    
 # Want to know what went wrong? 
 # Send the --debug optional argument to your 'build' script, this way babel-node will give you more details...
 
-$> npm run build -- --debug 
+$ npm run build -- --debug 
 ```
 
 ### References

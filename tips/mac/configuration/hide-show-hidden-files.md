@@ -17,17 +17,17 @@ defaults write com.apple.finder AppleShowAllFiles -bool <boolean>
 
 - To hide your hidden files  
 ```bash
-$> defaults write com.apple.finder AppleShowAllFiles -bool false 
+$ defaults write com.apple.finder AppleShowAllFiles -bool false 
 ```
 
 - To show your hidden files
 ```bash
-$> defaults write com.apple.finder AppleShowAllFiles -bool true
+$ defaults write com.apple.finder AppleShowAllFiles -bool true
 ```
 
 - Restart the finder
 ```bash
-$> killall Finder
+$ killall Finder
 ```
 
 ### References

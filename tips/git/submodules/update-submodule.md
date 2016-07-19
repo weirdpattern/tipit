@@ -21,8 +21,8 @@ git submodule update --remote [--init] [--recursive] [--rebase | --merge]
   
 ### Example
 ```bash
-$> cd my-repository
-$> git submodule update --remote --init --recursive
+$ cd my-repository
+$ git submodule update --remote --init --recursive
 ```
 
 ### Notes

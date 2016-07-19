@@ -18,17 +18,17 @@ defaults write com.apple.TextEdit RichText -bool <boolean>
 
 - Update the defaults settings using  
 ```bash
-$> defaults write com.apple.TextEdit RichText -bool false
+$ defaults write com.apple.TextEdit RichText -bool false
 ```
 
 - Force a stop of TextEdit (if open):  
 ```bash
-$> killall TextEdit
+$ killall TextEdit
 ```
 
 - To revert the change use:  
 ```bash
-$> defaults delete com.apple.TextEdit RichText -bool true
+$ defaults delete com.apple.TextEdit RichText -bool true
 ```
 
 ### References

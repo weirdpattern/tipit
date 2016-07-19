@@ -18,14 +18,14 @@ git submodule add <repository> [<path>]
   
 ### Example
 ```bash
-$> cd my-repository
-$> git submodule add https://www.github.com/weirdpattern/alfred-python-workflow library
+$ cd my-repository
+$ git submodule add https://www.github.com/weirdpattern/alfred-python-workflow library
 
 # the below step is only required if your submodule has other submodules
 # git only pull the source code of the top level submodule, inner submodules need to be initialized manually
 
-$> cd library
-$> git submodule init
+$ cd library
+$ git submodule init
 ```
 
 ### References

@@ -14,42 +14,42 @@ Lets you import source code from an external repository to a new repository.
 
 - Create a bare clone of the repository you want to import.
 ```bash
-$> git clone --bare https://githost.org/myuser/my-repository.git
-$> cd my-repository.git
+$ git clone --bare https://githost.org/myuser/my-repository.git
+$ cd my-repository.git
 ```
 
 - Push the newly cloned repository using the `--mirror` option.  
 ```bash
-$> git push --mirror https://newhost.org/myuser/my-repository.git
+$ git push --mirror https://newhost.org/myuser/my-repository.git
 ```
 
 - Remove the temporary clone.  
 ```bash
-$> cd ..
-$> rm -rf my-repository.git
+$ cd ..
+$ rm -rf my-repository.git
 ```
 
 - If you wish to work on it, clone it (no bare option this time).   
 ```bash
-$> git clone https://newhost.org/myuser/my-repository.git
+$ git clone https://newhost.org/myuser/my-repository.git
 ```
    
 ### Example
 ```bash
-$> cd ~
-$> mkdir temp
-$> cd temp
-$> git clone --bare https://bitbucket.org/user/my-repository.git
-$> cd my-repository.git
-$> git push --mirror https://github.com/user/my-repository.git
-$> cd ..
-$> rm -rf my-repository.git
-$> cd ..
-$> rm -rf temp
+$ cd ~
+$ mkdir temp
+$ cd temp
+$ git clone --bare https://bitbucket.org/user/my-repository.git
+$ cd my-repository.git
+$ git push --mirror https://github.com/user/my-repository.git
+$ cd ..
+$ rm -rf my-repository.git
+$ cd ..
+$ rm -rf temp
 
 # This step is optional (you can do it later too)
 
-$> git clone https://github.com/user/my-repository.git
+$ git clone https://github.com/user/my-repository.git
 
 ```
 
