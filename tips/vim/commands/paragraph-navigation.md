@@ -6,8 +6,8 @@ In Vim any block of text separated by a blank line is considered a paragraph.
 
 ### Syntax
 ```vim
-{ '' Moves forward
-} '' Moves backward
+{ " Moves forward
+} " Moves backward
 ```
   
 ![Paragraph Navigation](https://cloud.githubusercontent.com/assets/19519411/17079481/319a25ae-50d7-11e6-9a10-625e6a35d012.gif)   
