@@ -10,7 +10,7 @@ In Vim any block of text separated by a blank line is considered a paragraph.
 } # Moves backward
 ```
   
-![Paragraph Navigation](https://cloud.githubusercontent.com/assets/19519411/17034978/a933a952-4f4a-11e6-8d51-dee41fb7e304.gif)   
+![Paragraph Navigation](https://cloud.githubusercontent.com/assets/19519411/17079481/319a25ae-50d7-11e6-9a10-625e6a35d012.gif)   
 
 ### References
 [@vimgifs](https://twitter.com/vimgifs) \([tweet](https://twitter.com/vimgifs/status/755922916429197313)\)

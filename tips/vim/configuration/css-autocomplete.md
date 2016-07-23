@@ -15,7 +15,7 @@ Ctrl+O # one element down
 Ctrl+P # one element up
 ```
   
-![CSS Autocomplete](https://cloud.githubusercontent.com/assets/19519411/17069715/bdc5f5fe-501d-11e6-8866-336093dee643.gif)   
+![CSS Autocomplete](https://cloud.githubusercontent.com/assets/19519411/17079479/2a492c3c-50d7-11e6-8106-de7399426d73.gif)   
 
 ### References
 [@vimgifs](https://twitter.com/vimgifs) \([tweet](https://twitter.com/vimgifs/status/756103414904414208)\)

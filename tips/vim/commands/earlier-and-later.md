@@ -48,7 +48,7 @@ This is great when you delete stuff and then remember you actually need that stu
 :later 2f    # move forward to what the state will be 2 saves from now (considering you used a :earlier command before)
 ```
 
-![Earlier and Later](https://cloud.githubusercontent.com/assets/19519411/16900765/633251f0-4bf4-11e6-847d-051af376df01.gif)   
+![Earlier and Later](https://cloud.githubusercontent.com/assets/19519411/17079475/1c516446-50d7-11e6-821c-635e90bed9ef.gif)   
 
 ### References
 Vim documentation: undo \([http://vimdoc.sourceforge.net/htmldoc/undo.html](http://vimdoc.sourceforge.net/htmldoc/undo.html)\)
