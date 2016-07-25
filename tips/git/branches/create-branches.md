@@ -6,27 +6,28 @@ Creates a new local or remote branch.
 ### Syntax
 - Local branches
 ```bash
-git branch <name>   # creates the branch
-git checkout <name> # checkouts the branch
+git branch <branch>   # creates the branch
+git checkout <branch> # checkouts the branch
 
 # or
 
-git checkout -b <name> # creates and checkouts the branch 
+git checkout <-b|-B> <branch> # creates and checkouts the branch 
 ```
     
-|               | Option | Description                                      |
-| :-----------: | ------ | ------------------------------------------------ |
-| :exclamation: | name   | The name of the new branch to be created         |
-|               | -b     | Flag that indicated a new branch must be created |
+|               | Option | Description                                                                   |
+| :-----------: | ------ | ----------------------------------------------------------------------------- |
+|               | -b     | Flag that indicated a new branch must be created                              |
+|               | -B     | Flag that indicated a new branch must be created or reset (if already exists) |
+| :exclamation: | branch | The name of the new branch to be created                                      |
    
 - Remote branches
 ```bash
-git push origin origin:refs/heads/<name>
+git push origin origin:refs/heads/<branch>
 ```
     
 |               | Option | Description                              |
 | :-----------: | ------ | ---------------------------------------- |
-| :exclamation: | name   | The name of the new branch to be created |
+| :exclamation: | branch | The name of the new branch to be created |
     
 <sub>* The list of options is not extensive, for more options please review the references.</sub>
   
