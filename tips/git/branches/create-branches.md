@@ -9,8 +9,7 @@ Creates a new local or remote branch.
 git branch <branch>   # creates the branch
 git checkout <branch> # checkouts the branch
 
-# or
-
+# alternatively use the compact syntax
 git checkout <-b|-B> <branch> # creates and checkouts the branch 
 ```
     
@@ -33,6 +32,7 @@ git push origin origin:refs/heads/<branch>
   
 ### Example
 ```bash
+# local branches
 $ cd my-repository
 $ git branch bug:123
 $ git checkout bug:123
@@ -42,8 +42,7 @@ $ git checkout bug:123
 $ cd my-repository
 $ git checkout -b bug:123
 
-# or
-
+# remote branches
 $ cd my-repository
 $ git push origin origin:refs/heads/bug:123
 $ git fetch origin
