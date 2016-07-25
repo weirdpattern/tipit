@@ -59,4 +59,4 @@ Git checkout \([https://git-scm.com/docs/git-checkout](https://git-scm.com/docs/
 ### Tags
 [#tip](../../tips.md)  
 [#git](../git.md)  
-[#submodules](submodules.md)  
+[#branches](branches.md)  
