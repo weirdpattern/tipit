@@ -1,5 +1,6 @@
 ## Git
 
+- [Branches](branches/branches.md)
 - [Maintenance](maintenance/maintenance.md)
 - [Submodule](submodules/submodules.md)
 
