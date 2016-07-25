@@ -25,7 +25,7 @@ $ git fetch upstream
 ```bash
 $ git checkout master
 ```
-   
+
 - Merge/Rebase the remote repository and your local branch.
 ```bash
 # Rebase using
@@ -42,7 +42,6 @@ $ git merge upstream/master
 $ git commit -m "Updating fork"
 $ git push origin/master
 ```
-
 
 ### Example
 ```bash
