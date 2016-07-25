@@ -53,7 +53,8 @@ $ git checkout bug:123
 ```
 
 ### References
-Git branch \([https://git-scm.com/docs/git-branch](https://git-scm.com/docs/git-branch)\)
+Git branch \([https://git-scm.com/docs/git-branch](https://git-scm.com/docs/git-branch)\)  
+Git checkout \([https://git-scm.com/docs/git-checkout](https://git-scm.com/docs/git-checkout)\)
 
 ### Tags
 [#tip](../../tips.md)  
