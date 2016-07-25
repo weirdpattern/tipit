@@ -14,9 +14,10 @@ git checkout <name> # checkouts the branch
 git checkout -b <name> # creates and checkouts the branch 
 ```
     
-|               | Option | Description                              |
-| :-----------: | ------ | ---------------------------------------- |
-| :exclamation: | name   | The name of the new branch to be created |  
+|               | Option | Description                                      |
+| :-----------: | ------ | ------------------------------------------------ |
+| :exclamation: | name   | The name of the new branch to be created         |
+|               | -b     | Flag that indicated a new branch must be created |
    
 - Remote branches
 ```bash
