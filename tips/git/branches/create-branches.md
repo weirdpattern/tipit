@@ -9,15 +9,14 @@ Creates a new local or remote branch.
 git branch <name>   # creates the branch
 git checkout <name> # checkouts the branch
 
-or
+# or
+
 git checkout -b <name> # creates and checkouts the branch 
 ```
     
 |               | Option | Description                              |
 | :-----------: | ------ | ---------------------------------------- |
 | :exclamation: | name   | The name of the new branch to be created |  
-
-<sub>* The list of options is not extensive, for more options please review the references.</sub>
    
 - Remote branches
 ```bash
@@ -48,7 +47,8 @@ $ git push origin origin:refs/heads/bug:123
 $ git fetch origin
 $ git branch -r
   # origin/master
-  # origin/bug123
+  # origin/bug:123
+$ git checkout bug:123
 
 ```
 
