@@ -10,7 +10,8 @@ Allows you to quickly jump to the several positions inside a line.
 _ " Moves to the beginning of the sentence
 $ " Moves to the end of the line
 ```
-  
+
+### Example
 ![Line Navigation](https://cloud.githubusercontent.com/assets/19519411/17079477/22412c7e-50d7-11e6-8120-654419945521.gif)   
 
 ### References

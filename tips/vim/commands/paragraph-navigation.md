@@ -9,7 +9,8 @@ In Vim any block of text separated by a blank line is considered a paragraph.
 { " Moves forward
 } " Moves backward
 ```
-  
+
+### Example
 ![Paragraph Navigation](https://cloud.githubusercontent.com/assets/19519411/17079481/319a25ae-50d7-11e6-9a10-625e6a35d012.gif)   
 
 ### References

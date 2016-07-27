@@ -5,7 +5,7 @@ Gives you control of the vim history, allowing you to go back and forth between 
 This is great when you delete stuff and then remember you actually need that stuff.
 
 ### Syntax
-```bash
+```vim
 :ea[rlier] [<count>[(s|m|h|d|f)]]
 :lat[er] [<count>[(s|m|h|d|f)]]
 ```
