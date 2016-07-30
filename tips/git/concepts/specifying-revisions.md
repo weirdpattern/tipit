@@ -28,15 +28,17 @@ Use ~ to access ancestors other than the parents.
 ```bash
 $ git reset HEAD^ # means go back to the first parent
 
-# equivalent to
+# which is equivalent to
 $ git reset HEAD^1
+
+####
 
 $ git reset HEAD~3 # means go back to the third generation (going up) of ancestors
 
-# equivalent to
+# which is equivalent to
 $ git reset HEAD^^^
- 
-# equivalent to 
+
+# and/or
 $ git reset HEAD^1^1^1
 ```
 
