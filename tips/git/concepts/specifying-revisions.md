@@ -31,7 +31,6 @@ $ git reset HEAD^ # means go back to the first parent
 # equivalent to
 $ git reset HEAD^1
 
-
 $ git reset HEAD~3 # means go back to the third generation (going up) of ancestors
 
 # equivalent to
