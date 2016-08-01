@@ -5,7 +5,7 @@ Allows the user to paste a plain copy of a rich text, thus removing all formatti
   
 ### Syntax
 ```
-Command + Shift + V  
+Ctrl + Alt + V  
 ```
 
 ### Output
@@ -16,5 +16,5 @@ Command + Shift + V
 
 ### Tags
 [#tip](../../tips.md)  
-[#mac](../mac.md)  
+[#windows](../windows.md)  
 [#general](general.md)

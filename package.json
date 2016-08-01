@@ -7,5 +7,12 @@
   "repository": {
     "type": "git",
     "url": "https://www.github.com/weirdpattern/tipit.git"
+  },
+  "scripts": {
+    "website": "node ./scripts/website.js",
+    "validate": "node ./scripts/validate.js"
+  },
+  "devDependencies": {
+    "ajv": "^4.2.0"
   }
 }
