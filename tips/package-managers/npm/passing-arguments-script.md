@@ -37,5 +37,5 @@ NPM Run Script \([https://docs.npmjs.com/cli/run-script](https://docs.npmjs.com/
 
 ### Tags
 [#tip](../../tips.md)  
-[#node](../node.md)  
+[#package-managers](../package-managers.md)  
 [#npm](npm.md)

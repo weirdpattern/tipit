@@ -1,7 +1,7 @@
-## Node npm (1)
+## Package managers npm (1)
 
 - [Passing arguments to npm scripts](passing-arguments-script.md)
 
 ### Tags
 [#tip](../../tips.md)  
-[#node](../node.md)
+[#package-managers](../package-managers.md)
