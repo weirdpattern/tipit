@@ -10,7 +10,9 @@ To register a new package you must comply with the following:
 - For private packages (e.g. GitHub Enterprise), please consider running a private Bower registry.
 
 ### Syntax
+```bash
 bower install <package-name> <git-endpoint>
+```
 
 |               | Option       | Description                                   |
 | :-----------: | ------------ | --------------------------------------------- |
