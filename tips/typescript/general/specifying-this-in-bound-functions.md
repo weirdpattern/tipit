@@ -1,7 +1,7 @@
-## Specifying `this` in functions that have been bound (.bind())
+## Specifying `this` in functions that have been .bind()
 
 ### Summary
-Allows a developer to specify the value of `this` in a function that has been bound.  
+Allows a developer to specify the value of `this` in a function that has been .bind().  
 This allows TypeScript to correctly type check your code.   
 
 ### Syntax
