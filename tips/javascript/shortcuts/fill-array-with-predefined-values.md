@@ -6,13 +6,11 @@ Create an array of a specific length pre-populated with values.
 ### Syntax
 ```javascript
 // ES5
-Array.apply(null, Array(<length>)).map(Number.call, <mapping-function>);
+Array.apply(null, Array(<length>)).map(<mapping-function>);
 
 // ES2015 (ES6)
 Array.from(Array(<length>), <mapping-function>);
-
-// alternatively (caveat, this will set the same value for all indexes) 
-Array(<length>).fill(value, [start=0], [end=this.length]);
+Array(<length>).fill(value, [start=0], [end=this.length]).map(<mapping-function>);
 ```
 
 |               | Option           | Description                                                                                         |
@@ -25,15 +23,21 @@ Array(<length>).fill(value, [start=0], [end=this.length]);
 
 ### Example
 ```javascript
-Array.apply(null, Array(5)).map((_, i) => i); // [0, 1, 2, 3, 4]
-Array.apply(null, Array(5)).map((_, i) => `${i + 10}px`); // ['10px', '11px', '12px', '13px', '14px']
+Array.apply(null, Array(5)).map((_, i) => i); 
+// [0, 1, 2, 3, 4]
+
+Array.apply(null, Array(5)).map((_, i) => `${i + 10}px`); 
+// ['10px', '11px', '12px', '13px', '14px']
 
 // ES2015 (ES6)
-Array.from(Array(5), (_, i) => i); // logs [0, 1, 2, 3, 4]
-Array.from(Array(5), (_, i) => `${i + 10}px`); // logs ['10px', '11px', '12px', '13px', '14px']
+Array.from(Array(5), (_, i) => i); 
+// [0, 1, 2, 3, 4]
 
-// alternatively
-Array(5).fill(1); // logs [1, 1, 1, 1, 1] 
+Array.from(Array(5), (_, i) => `${i + 10}px`); 
+// ['10px', '11px', '12px', '13px', '14px']
+
+Array(5).fill(1).map((_, i) => i); 
+// [0, 1, 2, 3, 4] 
 ```
 
 ### Outputs
