@@ -44,10 +44,10 @@ Array(5).fill(1).map((_, i) => i);
 ### Outputs
 ![Array.apply](https://cloud.githubusercontent.com/assets/19519411/17607287/77a84914-5fea-11e6-8b90-1aee341920a1.png)
 ![Array.from](https://cloud.githubusercontent.com/assets/19519411/17607302/90595390-5fea-11e6-9a77-1328598327dd.png)
-![Array.fill](https://cloud.githubusercontent.com/assets/19519411/17607288/77a9adcc-5fea-11e6-9430-7791c062cafb.png)
+![Array.fill](https://cloud.githubusercontent.com/assets/19519411/17626332/7bcd8594-6072-11e6-8d2f-73a2d52b3d59.png)
 
 ### References
-Initializing an array with values \([http://www.2ality.com/2013/11/initializing-arrays.html](http://www.2ality.com/2013/11/initializing-arrays.html)\)
+Initializing an array with values \([http://www.2ality.com/2013/11/initializing-arrays.html](http://www.2ality.com/2013/11/initializing-arrays.html)\)   
 Array.prototype.fill \([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)\)
 
 ### Tags
