@@ -23,6 +23,7 @@ Array(<length>).fill(value, [start=0], [end=this.length]).map(<mapping-function>
 
 ### Example
 ```javascript
+// ES5
 Array.apply(null, Array(5)).map((_, i) => i); 
 // [0, 1, 2, 3, 4]
 
