@@ -41,4 +41,4 @@ Swapping variable values via destructuring \([http://www.2ality.com/2016/05/six-
 ### Tags
 [#tip](../../tips.md)  
 [#javascript](../javascript.md)  
-[#general](general.md)
+[#shortcuts](shortcuts.md)
