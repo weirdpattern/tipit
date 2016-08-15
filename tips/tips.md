@@ -3,6 +3,7 @@
 - [Chrome](chrome/chrome.md)
 - [Git](git/git.md)
 - [Github](github/github.md)
+- [Html](html/html.md)
 - [Javascript](javascript/javascript.md)
 - [Mac](mac/mac.md)
 - [Package Managers](package-managers/package-managers.md)
