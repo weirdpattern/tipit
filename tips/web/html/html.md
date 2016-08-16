@@ -3,4 +3,5 @@
 - [Loading scripts \(defer vs async\)](loading-scripts.md)
 
 ### Tags
-[#tip](../tips.md)  
+[#tip](../../tips.md)  
+[#web](../web.md)  
