@@ -45,5 +45,5 @@ Tabular logs \([http://www.zsoltnagy.eu/javascript-debugging-tips-and-tricks](ht
 
 ### Tags
 [#tip](../../tips.md)  
-[#chrome](../chrome.md)  
+[#javascript](../javascript.md)  
 [#debugging](debugging.md)
