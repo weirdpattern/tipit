@@ -1,7 +1,7 @@
 ## Adding content in css with `content` and `attr`
 
 ### Summary
-
+Allows the developer to dynamically alter existing content inside html elements.
 
 ### Syntax
 ```css
@@ -9,11 +9,11 @@
   content: [attr(<data-[attribute]>) | 'plain text']
 }
 
-<selector>::before {
+<selector>:before {
   content: [attr(<data-[attribute]>) | 'plain text']
 }
 
-<selector>::after {
+<selector>:after {
   content: [attr(<data-[attribute]>) | 'plain text']
 }
 ```
@@ -29,6 +29,8 @@
 <div id="test-prepend" data-attr="PREFIX">This is a test</div>
 <br/>
 <div id="test-append" data-attr="SUFFIX">This is a test</div>
+<br/>
+<div id="decorate">This is a test</div>
 ```
 
 ```css
@@ -43,10 +45,18 @@
 #test-append:after {
   content: " "attr(data-attr);
 }
+
+#decorate:before {
+  content: '<<';
+}
+
+#decorate:after {
+  content: '>>';
+}
 ```
 
 ### Output   
-![HTML Output](https://cloud.githubusercontent.com/assets/19519411/17655480/6c1ad2ec-6274-11e6-9f83-5f9ca1ca5832.png)
+![HTML Output](https://cloud.githubusercontent.com/assets/19519411/17687674/b063bd1a-633c-11e6-9d3d-5e5687ec6dcb.png)
 
 ### References
 content \([https://developer.mozilla.org/en-US/docs/Web/CSS/content](https://developer.mozilla.org/en-US/docs/Web/CSS/content)\)
