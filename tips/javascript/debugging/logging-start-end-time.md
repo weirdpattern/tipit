@@ -28,7 +28,7 @@ console.timeEnd('fibonacci');
 ```
 
 ### Output
-![Fibonacci](https://cloud.githubusercontent.com/assets/19519411/17718384/43b1ac52-63d9-11e6-900b-14b5fac10c27.png)
+![Fibonacci](https://cloud.githubusercontent.com/assets/19519411/17718489/e6cafba0-63d9-11e6-8d51-647a578d31f4.png)
 
 ### References
 Console.time/timeEnd \([https://developer.mozilla.org/en-US/docs/Web/API/Console/time](https://developer.mozilla.org/en-US/docs/Web/API/Console/time)\)
