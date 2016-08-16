@@ -52,5 +52,5 @@ async vs defer attributes \([http://www.growingwiththeweb.com/2014/02/async-vs-d
 
 ### Tags
 [#tip](../../tips.md)  
-[#html](../html.md)  
-[#general](general.md)
+[#web](../web.md)  
+[#html](html.md)
