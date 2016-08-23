@@ -1,6 +1,6 @@
 ## Mac terminal (1)
 
-- [Paste special \(plain text\)](paste-plain-text.md)
+- [Print all environment variables](print-all-env-variables.md)
 
 ### Tags
 [#tip](../../tips.md)  
