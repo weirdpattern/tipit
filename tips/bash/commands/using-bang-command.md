@@ -9,6 +9,7 @@ Allows you to not only quickly retrieve several most recent commands, but also r
 ```
 
 Where option can be one of:   
+
 |       | Option   | Description                                                               |
 | :---: | -------- | ------------------------------------------------------------------------- |
 |       | !        | Use the last command                                                      |
