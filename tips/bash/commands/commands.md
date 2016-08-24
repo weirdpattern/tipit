@@ -1,7 +1,8 @@
-## Mac terminal (1)
+## Bash commands (2)
 
 - [Print all environment variables](print-all-env-variables.md)
+- [Using the bang command](using-bang-command.md)
 
 ### Tags
 [#tip](../../tips.md)  
-[#mac](../mac.md)
+[#bash](../bash.md)

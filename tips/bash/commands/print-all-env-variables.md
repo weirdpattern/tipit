@@ -21,5 +21,5 @@ Linux and Unix printenv command \([http://www.computerhope.com/unix/printenv.htm
 
 ### Tags
 [#tip](../../tips.md)  
-[#mac](../mac.md)  
-[#terminal](terminal.md)
+[#bash](../bash.md)  
+[#commands](commands.md)
