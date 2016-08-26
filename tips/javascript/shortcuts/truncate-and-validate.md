@@ -1,4 +1,4 @@
-## Truncate a value and always return a number using ~~
+## Truncate a value and always return a number using `~~`
 
 ### Summary
 Coerces a value to number, then truncates its the real portion (returning just an integer).  
