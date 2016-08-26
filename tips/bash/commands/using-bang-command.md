@@ -1,4 +1,4 @@
-## Using the bang command \(!\)
+## Using the bang command \(`!`\)
 
 ### Summary
 Allows you to not only quickly retrieve several most recent commands, but also reuse parts of the previous command (or any other command within the history), thus making command chaining more easy to implement and even more powerful.
