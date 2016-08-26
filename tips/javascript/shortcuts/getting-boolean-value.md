@@ -1,4 +1,4 @@
-## Getting a boolean value from any value using `!!`
+## Getting the real truthiness of a value using `!!`
 
 ### Summary
 Coerces a value to boolean (falsy values will return false, truthy values will return true).  
