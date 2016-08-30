@@ -7,20 +7,20 @@ The /dev/null device is a special file (not a directory) and is typically used f
 ### Syntax
 ```bash
 # redirects standard out (stout) to /dev/null
-$ <operation> > /dev/null
+<operation> > /dev/null
 
 # does exactly the same as above
-$ <operation> 1> /dev/null
+<operation> 1> /dev/null
 
 # redirects standard error (sterr) to /dev/null
-$ <operation> 2> /dev/null
+<operation> 2> /dev/null
 
 # redirects standard out (stdout) to /dev/null
 # then redirects standard error (sterr) to standard out (stdout).
-$ <operation> > /dev/null 2>&1   
+<operation> > /dev/null 2>&1   
 
 # same as above, but shorter
-$ <operation> &> /dev/null
+<operation> &> /dev/null
 ```
 
 |               | Option    | Description                   |
