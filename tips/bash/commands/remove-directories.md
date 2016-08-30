@@ -32,6 +32,9 @@ $ rm -rf .git
   .git
 ```
 
+### Output
+![Remove Dir](https://cloud.githubusercontent.com/assets/19519411/18108519/35f46434-6ed2-11e6-917a-8fcf74698383.png)
+
 ### References
 How do I remove a full directory in Linux? \([http://www.computerhope.com/issues/ch000798.htm](http://www.computerhope.com/issues/ch000798.htm)\)
 
