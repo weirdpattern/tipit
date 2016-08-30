@@ -1,4 +1,4 @@
-## Bash commands (3)
+## Bash commands (1)
 
 - [Print all environment variables](print-all-env-variables.md)
 
