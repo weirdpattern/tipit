@@ -1,4 +1,4 @@
-## Using the > /dev/null sink to protect your code
+## Using the `> /dev/null` sink to protect your code
 
 ### Summary
 Redirects the stdout/stderr (or both) to the special location /dev/null.  
