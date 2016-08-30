@@ -42,4 +42,4 @@ Brace expansion \([http://wiki.bash-hackers.org/syntax/expansion/brace](http://w
 ### Tags
 [#tip](../../tips.md)  
 [#bash](../bash.md)  
-[#commands](commands.md)
+[#general](general.md)

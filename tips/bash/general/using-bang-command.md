@@ -52,4 +52,4 @@ Bash Bang \(!\) commands \([http://ss64.com/bash/bang.html](http://ss64.com/bash
 ### Tags
 [#tip](../../tips.md)  
 [#bash](../bash.md)  
-[#commands](commands.md)
+[#general](general.md)
