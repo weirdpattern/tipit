@@ -1,4 +1,4 @@
-## Standalone script blocks
+## Standalone code blocks
 
 ### Summary
 Allows the developer to define blocks of code outside of the normal loop or if/else statements.  
@@ -61,7 +61,7 @@ block(true);
 ```
 
 ### Output
-![Named Script Block](https://cloud.githubusercontent.com/assets/19519411/18149262/c9d6f8d8-6fa4-11e6-990a-dd3048667813.png)
+![Named Code Block](https://cloud.githubusercontent.com/assets/19519411/18149262/c9d6f8d8-6fa4-11e6-990a-dd3048667813.png)
 
 ### References
 Expressions versus statements in JavaScript \([http://www.2ality.com/2012/09/expressions-vs-statements.html](http://www.2ality.com/2012/09/expressions-vs-statements.html)\)
