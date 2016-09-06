@@ -1,6 +1,7 @@
-## Package managers npm (2)
+## Package managers npm (3)
 
 - [Linking unpublished repositories](linking-unpublished-repositories.md)
+- [Look for outdated packages](look-for-outdated-packages.md)
 - [Passing arguments to npm scripts](passing-arguments-script.md)
 
 ### Tags
