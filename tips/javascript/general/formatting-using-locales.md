@@ -1,6 +1,7 @@
 ## Formatting numbers using `toLocaleString`
 
 ### Summary
+Allows the developer to format numbers and dates using locales.
 
 ### Syntax
 ```javascript
