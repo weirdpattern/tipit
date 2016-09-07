@@ -29,7 +29,7 @@ date.toLocaleString('en-US', { hour12: false });                                
 ![Date format](https://cloud.githubusercontent.com/assets/19519411/18328391/353a96ec-7514-11e6-9751-e05d49c1fca4.png)
 
 ### References
-Number.prototype.toLocaleString() \([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString)\)
+Number.prototype.toLocaleString() \([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString)\)  
 Date.prototype.toLocaleString() \([https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)\)
 
 ### Tags
