@@ -1,4 +1,4 @@
-## Git Branches (3)
+## Git Branches (4)
 
 - [Create a new branch](create-branches.md)
 - [Create a new orphan branch](create-orphan-branches.md)
