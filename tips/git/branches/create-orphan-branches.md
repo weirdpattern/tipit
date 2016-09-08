@@ -50,7 +50,7 @@ $ git log --pretty='%h - %an, %ar : %s'
 ![Orphan branches](https://cloud.githubusercontent.com/assets/19519411/18356229/85dc91b6-75b1-11e6-8a39-e684d5017a8d.png)
 
 ### References
--checkout(1) Manual Page \([https://git-scm.com/docs/git-checkout/1.7.3.1](https://git-scm.com/docs/git-checkout/1.7.3.1)\)  
+checkout(1) Manual Page \([https://git-scm.com/docs/git-checkout/1.7.3.1](https://git-scm.com/docs/git-checkout/1.7.3.1)\)  
 
 ### Tags
 [#tip](../../tips.md)  

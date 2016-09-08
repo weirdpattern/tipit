@@ -1,7 +1,7 @@
 ## Git Branches (3)
 
 - [Create a new branch](create-branches.md)
-- [Create an new orphan branch](create-orphan-branches.md)
+- [Create a new orphan branch](create-orphan-branches.md)
 - [Delete a branch](delete-branches.md)
 - [Tracking remote branches](tracking-remote-branches.md)
 
