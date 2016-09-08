@@ -15,8 +15,8 @@ git checkout <-b|-B> <branch> # creates and checkouts the branch
     
 |               | Option | Description                                                                   |
 | :-----------: | ------ | ----------------------------------------------------------------------------- |
-|               | -b     | Flag that indicated a new branch must be created                              |
-|               | -B     | Flag that indicated a new branch must be created or reset (if already exists) |
+|               | b      | Flag that indicates a new branch must be created                              |
+|               | B      | Flag that indicates a new branch must be created or reset (if already exists) |
 | :exclamation: | branch | The name of the new branch to be created                                      |
    
 - Remote branches

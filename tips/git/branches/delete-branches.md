@@ -14,8 +14,8 @@ git branch -D <branch>
     
 |               | Option | Description                                             |
 | :-----------: | ------ | ------------------------------------------------------- |
-|               | -d     | Flag that indicates the branch must be deleted          |
-|               | -D     | Flag that indicates the branch must be forcibly deleted |
+|               | d      | Flag that indicates the branch must be deleted          |
+|               | D      | Flag that indicates the branch must be forcibly deleted |
 | :exclamation: | branch | The name of the branch to be deleted                    |
    
 - Remote branches
@@ -28,9 +28,9 @@ git branch -Dr origin/<branch>
 
 |               | Option | Description                                             |
 | :-----------: | ------ | ------------------------------------------------------- |
-|               | -d     | Flag that indicates the branch must be deleted          |
-|               | -D     | Flag that indicates the branch must be forcibly deleted |
-|               | -r     | Flag that indicates the remote branch must be deleted   |
+|               | d      | Flag that indicates the branch must be deleted          |
+|               | D      | Flag that indicates the branch must be forcibly deleted |
+|               | r      | Flag that indicates the remote branch must be deleted   |
 | :exclamation: | branch | The name of the branch to be deleted                    |
 
 <sub>* The list of options is not extensive, for more options please review the references.</sub>

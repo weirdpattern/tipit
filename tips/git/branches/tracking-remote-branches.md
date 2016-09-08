@@ -12,10 +12,10 @@ $ git checkout -t <upstream>
 $ git checkout --track <upstream>
 ```
     
-|               | Option     | Description                                      |
-| :-----------: | ---------- | ------------------------------------------------ |
-|               | -t/--track | A flag that indicates the branch must be tracked |
-| :exclamation: | upstream   | The name of the remote branch to be tracked      |  
+|               | Option   | Description                                      |
+| :-----------: | -------- | ------------------------------------------------ |
+|               | t/track  | A flag that indicates the branch must be tracked |
+| :exclamation: | upstream | The name of the remote branch to be tracked      |  
   
 - Working on an existing remote branch in an existing local branch
 ```bash
@@ -25,10 +25,10 @@ $ git branch -u <upstream>
 $ git branch --set-upstream-to=<upstream>
 ```
     
-|               | Option               | Description                                                                                                     |
-| :-----------: | -------------------- | --------------------------------------------------------------------------------------------------------------- |
-|               | -u/--set-upstream-to | Sets the branch tracking information so origin/<branch> (a.k.a upstream) is considered <branch> upstream branch |
-| :exclamation: | upstream             | The name of the remote branch to be tracked                                                                     |
+|               | Option            | Description                                                                                                     |
+| :-----------: | ----------------- | --------------------------------------------------------------------------------------------------------------- |
+|               | u/set-upstream-to | Sets the branch tracking information so origin/<branch> (a.k.a upstream) is considered <branch> upstream branch |
+| :exclamation: | upstream          | The name of the remote branch to be tracked                                                                     |
   
 - Pushing a local branch to the remote repository
 ```bash
@@ -38,10 +38,10 @@ $ git push -u <upstream>
 $ git push --set-upstream <upstream>
 ```
     
-|               | Option            | Description                                                                                                     |
-| :-----------: | ----------------- | --------------------------------------------------------------------------------------------------------------- |
-|               | -u/--set-upstream | Sets the branch tracking information so origin/<branch> (a.k.a upstream) is considered <branch> upstream branch |
-| :exclamation: | upstream          | The name of the remote branch to be tracked                                                                     |
+|               | Option         | Description                                                                                                     |
+| :-----------: | -------------- | --------------------------------------------------------------------------------------------------------------- |
+|               | u/set-upstream | Sets the branch tracking information so origin/<branch> (a.k.a upstream) is considered <branch> upstream branch |
+| :exclamation: | upstream       | The name of the remote branch to be tracked                                                                     |
    
 <sub>* The list of options is not extensive, for more options please review the references.</sub>
   
