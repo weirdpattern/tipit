@@ -9,7 +9,7 @@ This command only works when the `repository` property has been defined in the `
 npm repo [package_name]
 ```
 
-|       | Option       | Description                                             |
+|       | Option       | Description                                              |
 | :---: | ------------ | -------------------------------------------------------- |
 |       | package_name | The name of the package in the npm repository to be open |
    
