@@ -26,7 +26,7 @@ $ pwd
 ```
 
 ### Output
-~[Example](https://cloud.githubusercontent.com/assets/19519411/18457570/8e4aaefc-791f-11e6-8a94-f6ac05ad6045.png)
+![Example](https://cloud.githubusercontent.com/assets/19519411/18457570/8e4aaefc-791f-11e6-8a94-f6ac05ad6045.png)
 
 ### References
 git-rev-parse \([https://git-scm.com/docs/git-rev-parse](https://git-scm.com/docs/git-rev-parse)\)
