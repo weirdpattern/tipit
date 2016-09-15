@@ -1,11 +1,13 @@
 ## Tips
 
 - [Bash](bash/bash.md)
+- [Cmd](cmd/cmd.md)
 - [Git](git/git.md)
 - [Github](github/github.md)
 - [Javascript](javascript/javascript.md)
 - [Mac](mac/mac.md)
 - [Package Managers](package-managers/package-managers.md)
+- [PowerShell](powershell/powershell.md)
 - [Typescript](typescript/typescript.md)
 - [Vim](vim/vim.md)
 - [Web](web/web.md)
