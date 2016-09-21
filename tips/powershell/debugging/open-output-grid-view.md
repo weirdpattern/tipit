@@ -26,7 +26,7 @@ $ Get-Process -Name *chrome* | out-gridview
 ```
 
 ### Output
-![OutGridView]()
+![OutGridView](https://cloud.githubusercontent.com/assets/19519411/18718518/7ab6212a-7fe9-11e6-9ac9-9b924ee8aadb.PNG)
 
 ### References
 Out-GridView \([https://technet.microsoft.com/en-us/library/hh849920.aspx](https://technet.microsoft.com/en-us/library/hh849920.aspx)\)
