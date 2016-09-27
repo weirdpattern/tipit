@@ -7,6 +7,7 @@ Allows the developer to obtain the currently installed version of PowerShell
 ```powershell
 $PSVersionTable.PSVersion
 ```
+
 ### Examples
 ```powershell
 $ $PSVersionTable.PSVersion  
