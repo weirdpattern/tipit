@@ -28,7 +28,7 @@ $ git remote -v
 ```
 
 ### Output
-![Rename]()
+![Rename](https://cloud.githubusercontent.com/assets/19519411/18993719/3cc04aa0-86ea-11e6-8bd2-6ca7c2958d25.png)
 
 ### References
 Renaming a remote \([https://help.github.com/articles/renaming-a-remote/](https://help.github.com/articles/renaming-a-remote/)\)  
