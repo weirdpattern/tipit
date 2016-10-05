@@ -18,10 +18,10 @@ Function <name> {
 | :-----------: | ------------- | -------------------------------------- |
 | :exclamation: | name          | The name of the function to be created |
 
-Use Param() to declare all parameters the function can receive
-Use Begin{} to declare code that must be executed at the beginning of the function. It gets executed once per function call.
-Use Process{} to declare code that must be executed per item in the pipeline. Required when ValueFromPipeline or ValueFromPipelineByPropertyName are used.
-Use End{} to declare code that must be executed at the end of the function. It gets executed once per function call.
+Use Param() to declare all parameters the function can receive.  
+Use Begin{} to declare code that must be executed at the beginning of the function. It gets executed once per function call.  
+Use Process{} to declare code that must be executed per item in the pipeline. Required when ValueFromPipeline or ValueFromPipelineByPropertyName are used.  
+Use End{} to declare code that must be executed at the end of the function. It gets executed once per function call.  
 
 ### Examples
 ```powershell
