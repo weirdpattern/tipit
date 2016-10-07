@@ -8,10 +8,10 @@ Allows the developer to view all files inside a newly added subdirectory.
 git status [-u[<mode>] | --untracked-files[=<mode>]]
 ```
 
-|       | Option               | Description                                   |
-| :---: | -------------------- | --------------------------------------------- |
-|       | u or untracked-files | A flag that tells git to show untracked files |
-|       | mode                 | The mode to be used                           |
+|       | Option            | Description                                   |
+| :---: | ----------------- | --------------------------------------------- |
+|       | u/untracked-files | A flag that tells git to show untracked files |
+|       | mode              | The mode to be used                           |
 
 <sub>
 Valid modes are:  
@@ -57,6 +57,7 @@ $ git status -uno
   On branch master
   Your branch is up-to-date with 'origin/master'.
   nothing added to commit but untracked files present (use "git add" to track)
+
 $ git status -unormal
   On branch master
   Your branch is up-to-date with 'origin/master'.
