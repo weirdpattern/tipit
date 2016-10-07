@@ -18,7 +18,7 @@ Valid modes are:
 no - show no untracked files.  
 normal - shows untracked files and directories.  
 all - also shows individual files in untracked directories.  
-  
+
 Rules:  
 When -u or --untracked-files is specified without a mode, `all` mode is used.  
 When -u or --untracked-files is not specified, `normal` mode is used. 
