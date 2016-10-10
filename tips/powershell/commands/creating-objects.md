@@ -38,4 +38,4 @@ The Many Ways to a Custom Object \([https://technet.microsoft.com/en-us/magazine
 ### Tags
 [#tip](../../tips.md)  
 [#powershell](../powershell.md)  
-[#general](general.md)
+[#commands](commands.md)
