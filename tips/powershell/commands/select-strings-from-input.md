@@ -17,11 +17,13 @@ Select-String { -InputObject <object> | -Path <path> } [-Pattern] string[]
 ### Examples
 ```powershell
 $ cd my-repository
+
 $ "failed" >> "test.txt"
 $ "succeded" >> "test.txt"
 $ "failed" >> "test.txt"
 $ "failed" >> "test.txt"
 $ "postponed" >> "test.txt"
+
 $ Select-String -Path "test.txt" -Pattern "failed"
   test.txt:1:failed
   test.txt:3:failed
