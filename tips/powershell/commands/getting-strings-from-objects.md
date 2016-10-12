@@ -64,7 +64,7 @@ Complete
 ![Output Complete](https://cloud.githubusercontent.com/assets/19519411/19311721/26350950-9055-11e6-8415-8c1ee02ce012.png)
 
 ### References
-Out-String \([https://technet.microsoft.com/en-us/library/hh849952.aspx](https://technet.microsoft.com/en-us/library/hh849952.aspx)\)
+Out-String \([https://technet.microsoft.com/en-us/library/hh849952.aspx](https://technet.microsoft.com/en-us/library/hh849952.aspx)\)  
 Creating wide tables with PowerShell \([https://poshoholic.com/2010/11/11/powershell-quick-tip-creating-wide-tables-with-powershell](https://poshoholic.com/2010/11/11/powershell-quick-tip-creating-wide-tables-with-powershell)\)
 
 ### Tags
