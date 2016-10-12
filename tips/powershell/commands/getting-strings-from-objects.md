@@ -54,8 +54,13 @@ $ Get-Alias | Format-Table -Property * | Out-String -Width 4096 | Out-File C:\al
 ```
 
 ### Output
+Command  
 ![Out-String](https://cloud.githubusercontent.com/assets/19519411/19311722/2641cd3e-9055-11e6-8c4e-0a59c2f47109.png)
+
+Truncated  
 ![Output Truncated](https://cloud.githubusercontent.com/assets/19519411/19311723/26486054-9055-11e6-9075-eb82ea617d7d.png)
+
+Complete  
 ![Output Complete](https://cloud.githubusercontent.com/assets/19519411/19311721/26350950-9055-11e6-8415-8c1ee02ce012.png)
 
 ### References
