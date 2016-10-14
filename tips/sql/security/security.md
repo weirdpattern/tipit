@@ -4,4 +4,4 @@
 
 ### Tags
 [#tip](../../tips.md)  
-[#powershell](../powershell.md)
+[#sql](../sql.md)
