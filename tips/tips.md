@@ -8,6 +8,7 @@
 - [Mac](mac/mac.md)
 - [Package Managers](package-managers/package-managers.md)
 - [PowerShell](powershell/powershell.md)
+- [SQL](sql/sql.md)
 - [Typescript](typescript/typescript.md)
 - [Vim](vim/vim.md)
 - [Web](web/web.md)
