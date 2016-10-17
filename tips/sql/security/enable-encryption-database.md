@@ -28,9 +28,9 @@ CREATE DATABASE <database_name>
 USE <database_name>
 GO
 
-CREATE DATABASE ENCRYPTION KEY
-  WITH ALGORITHM = <[AES_128 | AES_192 | AES_256 | TRIPLE_DES_3KEY]>
-       ENCRYPTION BY SERVER CERTIFICATE = <certificate_name>
+    CREATE DATABASE ENCRYPTION KEY
+      WITH ALGORITHM = <[AES_128 | AES_192 | AES_256 | TRIPLE_DES_3KEY]>
+ENCRYPTION BY SERVER CERTIFICATE = <certificate_name>
 ```
 
 - Turn encryption on.  
@@ -64,9 +64,9 @@ GO
 USE MyDatabase
 GO
 
-CREATE DATABASE ENCRYPTION KEY
-  WITH ALGORITHM = AES_256
-       ENCRYPTION BY SERVER CERTIFICATE = 'MyCompanyCertificate'
+    CREATE DATABASE ENCRYPTION KEY
+      WITH ALGORITHM = AES_256
+ENCRYPTION BY SERVER CERTIFICATE = 'MyCompanyCertificate'
 GO
 
 USE Master
@@ -77,7 +77,7 @@ ALTER DATABASE MyDatabase
 ```
 
 ### References
-Database Mirroring with Transparent Data Encryption and You  \([http://ratecontrol.blogspot.com/2011/04/database-mirroring-with-transparent.html](http://ratecontrol.blogspot.com/2011/04/database-mirroring-with-transparent.html)\)
+Database Mirroring with Transparent Data Encryption and You \([http://ratecontrol.blogspot.com/2011/04/database-mirroring-with-transparent.html](http://ratecontrol.blogspot.com/2011/04/database-mirroring-with-transparent.html)\)
 
 ### Tags
 [#tip](../../tips.md)  
