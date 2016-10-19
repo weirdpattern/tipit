@@ -70,7 +70,7 @@ john.train(); // I'm taking JavaScript training
 ```
 
 ### Output
-![no-binding](https://cloud.githubusercontent.com/assets/19519411/19521361/f12a5e02-95d8-11e6-9df1-72d5a38ca3de.png)
+![no-binding](https://cloud.githubusercontent.com/assets/19519411/19521361/f12a5e02-95d8-11e6-9df1-72d5a38ca3de.png)  
 ![binding](https://cloud.githubusercontent.com/assets/19519411/19521366/f27f2d78-95d8-11e6-9728-98fd6eb237bd.png)
 
 ### References
