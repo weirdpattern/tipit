@@ -15,7 +15,7 @@ Allows the developer to adjust settings like connection strings, debug options, 
 
 <sub>
 Operation: Replace, Insert, InsertBefore, InsertAfter, Remove, RemoveAll, RemoveAttributes and SetAttributes.  
-Condition: Condition(<XPath>), Match(<attributes>) and XPath(<XPath>).  
+Condition: Condition(\<XPath\>), Match(\<attributes\>) and XPath(\<XPath\>).  
 </sub>  
 
 ### Examples
