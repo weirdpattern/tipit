@@ -39,7 +39,7 @@ Removes the X-Powered-By header
 ```
 
 ### Output
-Withou optimizations  
+Without optimizations  
 ![Plain](https://cloud.githubusercontent.com/assets/19519411/19687548/64bb3286-9a8b-11e6-9831-3408b02c052f.png)  
 ![WithHeaders](https://cloud.githubusercontent.com/assets/19519411/19687550/64c34f52-9a8b-11e6-9d65-4f9da4007d55.png)  
   
