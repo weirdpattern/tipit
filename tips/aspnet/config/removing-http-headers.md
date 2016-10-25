@@ -52,7 +52,7 @@ With optimizations
 ![Configured](https://cloud.githubusercontent.com/assets/19519411/19687549/64bf5f3c-9a8b-11e6-82b0-1821786d1b82.png)  
 ![WithoutHeaders](https://cloud.githubusercontent.com/assets/19519411/19687769/710ba614-9a8c-11e6-85ac-2ba768de483e.png)  
 
-Global.asax
+Global.asax  
 ![Global.asax](https://cloud.githubusercontent.com/assets/19519411/19687743/49aaa76e-9a8c-11e6-8d78-467aba044726.png)
 
 ### References
