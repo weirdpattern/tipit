@@ -23,7 +23,7 @@ Removes the X-Powered-By header
 ```  
 
 In Global.asax (in case you are using MVC)
-```c#
+```csharp
 MvcHandler.DisableMvcResponseHeader = true;
 ```
 
