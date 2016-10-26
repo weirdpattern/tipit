@@ -21,9 +21,11 @@ protected void Application_Start()
 ```
 
 ### Output
-Without optimizations  
-![AllEngines](https://cloud.githubusercontent.com/assets/19519411/19727326/8c447b90-9b54-11e6-85a0-eeba059d5714.png)  
-![RazorEngine](https://cloud.githubusercontent.com/assets/19519411/19727327/8c511c74-9b54-11e6-8b96-b4f7234756cc.png)  
+With all engines  
+![AllEngines](https://cloud.githubusercontent.com/assets/19519411/19727326/8c447b90-9b54-11e6-85a0-eeba059d5714.png)    
+
+With only razor engine  
+![RazorEngine](https://cloud.githubusercontent.com/assets/19519411/19727327/8c511c74-9b54-11e6-8b96-b4f7234756cc.png)    
 
 ### References
 12 tips to increase the performance of your ASP.NET application drastically \([http://www.infragistics.com/community/blogs/devtoolsguy/archive/2015/08/07/12-tips-to-increase-the-performance-of-asp-net-application-drastically-part-1.aspx](http://www.infragistics.com/community/blogs/devtoolsguy/archive/2015/08/07/12-tips-to-increase-the-performance-of-asp-net-application-drastically-part-1.aspx)\)    
