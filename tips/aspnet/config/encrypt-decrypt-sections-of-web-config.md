@@ -106,12 +106,12 @@ $ aspnet_regiis -pa "MyKeyContainer" "NT AUTHORITY\NETWORK SERVICE"
 
 ## in the web.config
 ## <configuration>
-##  <configProtectedData>
-##    <providers>
-##      <add name="MyProtectedConfigurationProvider" type="System.Configuration.RsaProtectedConfigurationProvider, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" keyContainerName="MyKeyContainer" useMachineContainer="true" />
-##    </providers>
-##  </configProtectedData>
-##</configuration>
+##   <configProtectedData>
+##     <providers>
+##       <add name="MyProtectedConfigurationProvider" type="System.Configuration.RsaProtectedConfigurationProvider, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" keyContainerName="MyKeyContainer" useMachineContainer="true" />
+##     </providers>
+##   </configProtectedData>
+## </configuration>
 
 ## encrypt connection strings
 $ aspnet_regiis -pe "connection strings" -app "/Default Website" -prov "MyProtectedConfigurationProvider"
