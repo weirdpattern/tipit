@@ -1,4 +1,4 @@
-## CMD aliases (1)
+## Cmd aliases (1)
 
 - [Creating aliases for the command prompt](creating-aliases-command-prompt.md)
 
