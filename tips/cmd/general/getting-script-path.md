@@ -60,6 +60,7 @@ $ sub-script.bat
 ![Paths](https://cloud.githubusercontent.com/assets/19519411/19968616/5539e392-a1a3-11e6-917c-4856da159d76.png)  
 
 ### References
+The %~dp0 Variable \([https://htipe.wordpress.com/2008/10/09/the-dp0-variable/](https://htipe.wordpress.com/2008/10/09/the-dp0-variable/)\)  
 
 ### Tags
 [#tip](../../tips.md)  
