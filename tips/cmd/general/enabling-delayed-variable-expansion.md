@@ -29,12 +29,12 @@ if "%var%" == "before" (
 echo %var% :: outputs "after"
 ```   
 
-In 1, `var` is set to `before`
-In 2, `echo %var%` will output `before`
-In 3, `var` is expanded to its current value (`before`) in the entire statement (remember, batch executes one statement at a time)
-In 3.a., `set var` will set the value of `var` to `after`, but it won't matter, `var` has already been expanded 
-In 3.b., `echo %var%` will output `before`
-In 4, `echo %var%` will output `after`
+In 1, `var` is set to `before`  
+In 2, `echo %var%` will output `before`  
+In 3, `var` is expanded to its current value (`before`) in the entire statement (remember, batch executes one statement at a time)  
+In 3.a., `set var` will set the value of `var` to `after`, but it won't matter, `var` has already been expanded   
+In 3.b., `echo %var%` will output `before`  
+In 4, `echo %var%` will output `after`  
 
 ### Syntax
 ```batch
