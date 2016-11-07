@@ -38,7 +38,7 @@ EOM;
 ```  
 
 ### References  
-Here Documents /([http://www.tldp.org/LDP/abs/html/here-docs.html](http://www.tldp.org/LDP/abs/html/here-docs.html)/)  
+Here Documents \([http://www.tldp.org/LDP/abs/html/here-docs.html](http://www.tldp.org/LDP/abs/html/here-docs.html)\)  
 
 ### Tags  
 [#tip](../../tips.md)  
