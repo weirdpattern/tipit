@@ -1,22 +1,41 @@
 ## Flattening a list of lists
 
 ### Summary
-Allows the developer flattening list of lists with one simple command.  
+Provides the developer with a simple tool to flatten enumerable collections containing other enumerable items without looping through each one of them.  
 
 ### Syntax
 ```csharp
-
+<enumerable-object>.SelectMany(item => item);
 ```
+
+|               | Option            | Description                                                                                                      |
+| :-----------: | ----------------- | ---------------------------------------------------------------------------------------------------------------- |
+| :exclamation: | enumerable-object | An object implementing the IEnumerable interface and containing enumerable items (IEnumerable<IEnumerable<any>>) |
 
 ### Examples
 ```csharp
+var list = new List<int[]>();
+list.Add(new int[]{ 0, 1, 2, 3 });
+list.Add(new int[]{ 4, 5, 6, 7 });
+list.Add(new int[]{ 8, 9, 10, 11 });
 
+// logs 1 2 3 4 5 6 7 8 9 10 11, but requires 2 loops
+foreach (var item in list.Select(item => item)) {
+    foreach (var subitem in item) {
+        Console.Write(subitem);
+    }   
+}
+
+// logs 1 2 3 4 5 6 7 8 9 10 11
+foreach (var item in list.SelectMany(item => item)) {
+    Console.Write(item);
+}
 ```  
 
 ### References
- \([http://ss64.com/nt/delayedexpansion.html](http://ss64.com/nt/delayedexpansion.html)\)  
+Enumerable.SelectMany \([https://msdn.microsoft.com/en-us/library/bb534336(v=vs.110).aspx](https://msdn.microsoft.com/en-us/library/bb534336(v=vs.110).aspx)\)  
 
 ### Tags  
 [#tip](../../tips.md)  
-[#cmd](../cmd.md)  
-[#general](general.md)  
+[#csharp](../csharp.md)  
+[#linq](linq.md)  
