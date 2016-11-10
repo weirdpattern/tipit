@@ -3,6 +3,7 @@
 - [AspNet](aspnet/aspnet.md)
 - [Bash](bash/bash.md)
 - [Cmd](cmd/cmd.md)
+- [C#](csharp/csharp.md)
 - [Git](git/git.md)
 - [Github](github/github.md)
 - [Javascript](javascript/javascript.md)
