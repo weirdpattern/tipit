@@ -15,7 +15,7 @@ Allows the developer to process information in parallel thus improving performan
 
 ### Examples
 ```csharp
-// outputs 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
+// outputs 0, 10, 20, 30, 40, 50, 60, 70, 80, 90
 // but in no particular order as all processes are racing to get to the Console.WriteLine statement
 var numbers = Enumerable.Range(0, 10).AsParallel();
 numbers.ForAll(num => Console.WriteLine(num * 10)); 
