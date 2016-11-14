@@ -33,5 +33,5 @@ How to: Write a Simple Parallel.ForEach Loop \([https://msdn.microsoft.com/en-us
 
 ### Tags
 [#tip](../../tips.md)  
-[#csharp](../csharp.md)  
+[#c#](../csharp.md)  
 [#concurrency](concurrency.md)

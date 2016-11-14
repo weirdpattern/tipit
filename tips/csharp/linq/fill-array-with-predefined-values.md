@@ -36,5 +36,5 @@ Enumerable.Range \([https://www.dotnetperls.com/enumerable-range](https://www.do
 
 ### Tags
 [#tip](../../tips.md)  
-[#csharp](../csharp.md)  
+[#c#](../csharp.md)  
 [#linq](linq.md)

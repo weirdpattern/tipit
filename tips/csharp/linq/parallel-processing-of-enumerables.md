@@ -29,5 +29,5 @@ How to: Create and Execute a Simple PLINQ Query \([https://msdn.microsoft.com/en
 
 ### Tags  
 [#tip](../../tips.md)  
-[#csharp](../csharp.md)  
+[#c#](../csharp.md)  
 [#linq](linq.md)  
