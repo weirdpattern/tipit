@@ -5,12 +5,12 @@ Provides the developer with a simple tool to flatten enumerable collections cont
 
 ### Syntax
 ```csharp
-<enumerable-object>.SelectMany(item => item);
+<enumerable_object>.SelectMany(item => item);
 ```
 
 |               | Option            | Description                                                                                                      |
 | :-----------: | ----------------- | ---------------------------------------------------------------------------------------------------------------- |
-| :exclamation: | enumerable-object | An object implementing the IEnumerable interface and containing enumerable items (IEnumerable<IEnumerable<any>>) |
+| :exclamation: | enumerable_object | An object implementing the IEnumerable interface and containing enumerable items (IEnumerable<IEnumerable<any>>) |
 
 ### Examples
 ```csharp

@@ -6,17 +6,17 @@ Create an array of a specific length pre-populated with values.
 ### Syntax
 ```javascript
 // ES5
-Array.apply(null, Array(<length>)).map(<mapping-function>);
+Array.apply(null, Array(<length>)).map(<mapping_function>);
 
 // ES2015 (ES6)
-Array.from(Array(<length>), <mapping-function>);
-Array(<length>).fill(value, [start=0], [end=this.length]).map(<mapping-function>);
+Array.from(Array(<length>), <mapping_function>);
+Array(<length>).fill(value, [start=0], [end=this.length]).map(<mapping_function>);
 ```
 
 |               | Option           | Description                                                                                         |
 | :-----------: | ---------------- | --------------------------------------------------------------------------------------------------- |
 | :exclamation: | length           | The length of the array we want to create                                                           |
-| :exclamation: | mapping-function | A function to customize the values of the array in the form `(ignore : any, index : number) => any` |
+| :exclamation: | mapping_function | A function to customize the values of the array in the form `(ignore : any, index : number) => any` |
 | :exclamation: | value            | The initial value for all elements of the array                                                     |
 |               | start            | The index where to start filling values                                                             |
 |               | end              | The index where to stop filling values                                                              |

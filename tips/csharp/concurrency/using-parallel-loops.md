@@ -5,14 +5,14 @@ Allows the developer to process information faster by running processes in paral
 
 ### Syntax
 ```csharp
-Parallel.ForEach(<enumerable-object>, (<item>) => { 
+Parallel.ForEach(<enumerable_object>, (<item>) => { 
   // process each item in parallel
 });
 ```
 
 |               | Option            | Description                                      |
 | :-----------: | ----------------- | ------------------------------------------------ |
-| :exclamation: | enumerable-object | An object implementing the IEnumerable interface |
+| :exclamation: | enumerable_object | An object implementing the IEnumerable interface |
 | :exclamation: | item              | An item inside the enumerable-object             |
 
 ### Example

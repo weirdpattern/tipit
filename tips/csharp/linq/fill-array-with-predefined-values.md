@@ -5,13 +5,13 @@ Create an enuemrable of a specific length pre-populated with values.
 
 ### Syntax
 ```csharp
-Enumerable.Range(0, <length>).Select(<mapping-function>).[ToList() | ToArray() | ToDictionary() | ToLookup()];
+Enumerable.Range(0, <length>).Select(<mapping_function>).[ToList() | ToArray() | ToDictionary() | ToLookup()];
 ```
 
 |               | Option           | Description                                          |
 | :-----------: | ---------------- | ---------------------------------------------------- |
 | :exclamation: | length           | The length of the enuemrable we want to create       |
-| :exclamation: | mapping-function | A function to customize the values of the enumerable |
+| :exclamation: | mapping_function | A function to customize the values of the enumerable |
 
 ### Example
 ```csharp

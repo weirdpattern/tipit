@@ -5,13 +5,13 @@ Allows the developer to process information in parallel thus improving performan
 
 ### Syntax
 ```csharp
-<enumerable-object>.AsParallel().[other-enumerable-operations];
+<enumerable_object>.AsParallel().[other_enumerable_operations];
 ```
 
 |               | Option                      | Description                                      |
 | :-----------: | --------------------------- | ------------------------------------------------ |
-| :exclamation: | enumerable-object           | An object implementing the IEnumerable interface |
-|               | other-enumerable-operations | Any subsequent operation performed in parallel   |
+| :exclamation: | enumerable_object           | An object implementing the IEnumerable interface |
+|               | other_enumerable_operations | Any subsequent operation performed in parallel   |
 
 ### Examples
 ```csharp
