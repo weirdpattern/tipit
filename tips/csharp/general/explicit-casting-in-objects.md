@@ -1,4 +1,4 @@
-## Casting in objects using the explicit operator
+## Casting objects using the explicit operator
 
 ### Summary
 Allows the developer to specify the way a cast operation between two classes should work.  
