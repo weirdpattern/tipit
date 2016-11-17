@@ -1,5 +1,6 @@
-## C\# concurrency (1)
+## C\# concurrency (2)
 
+- [Lazy loading of objects](lazy-loading-objects.md)
 - [Using parallel loops to process information faster](using-parallel-loops.md)
 
 ### Tags
