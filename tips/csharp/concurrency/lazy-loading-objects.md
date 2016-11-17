@@ -42,7 +42,7 @@ Console.WriteLine(instance.IsValueCreated);
 ![Output](https://cloud.githubusercontent.com/assets/19519411/20394080/e477fcbe-aca3-11e6-8811-34301b687cab.png)  
 
 ### References  
-Lazy<T> Constructor \([https://msdn.microsoft.com/en-us/library/dd642329(v=vs.110).aspx](https://msdn.microsoft.com/en-us/library/dd642329(v=vs.110).aspx)\)  
+Lazy Constructor \([https://msdn.microsoft.com/en-us/library/dd642329(v=vs.110).aspx](https://msdn.microsoft.com/en-us/library/dd642329(v=vs.110).aspx)\)  
 
 ### Tags
 [#tip](../../tips.md)  
