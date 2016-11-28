@@ -22,6 +22,7 @@ public class World
 
 public class Person
 {
+    [DebuggerBrowsable(DebuggerBrowsableState.Never)]
     public Guid Id { get; set; }
     public string Name { get; set; }
     public string Sex { get; set; }
