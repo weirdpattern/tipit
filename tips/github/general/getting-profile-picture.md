@@ -4,7 +4,7 @@
 Gives the user access to his/her (or anyone else's for that matter) github profile picture.
 
 ### Steps
-- Visit https://github.com/\<username\>.png
+- Visit `https://github.com/<username>.png`
 
 ### Output
 ![profile](https://cloud.githubusercontent.com/assets/19519411/20754883/8f97e978-b6d2-11e6-8380-4bec8eee5cbe.png)  
