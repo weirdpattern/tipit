@@ -1,5 +1,6 @@
-## Git Maintenance (11)
+## Git Maintenance (12)
 
+- [Annotating changes using git blame](annotating-changes.md)
 - [Change author information recorded in existing commits](change-author-information.md)
 - [Go back to the git root directory with `git rev-parse`](go-back-to-root.md)
 - [Import a repository from another host](import-repository.md)
