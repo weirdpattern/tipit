@@ -17,12 +17,18 @@ SELECT IDENT_CURRENT(<table_name>)
 SELECT @@IDENTITY
 ```
 
+|               | Option     | Description                                  |
+| :-----------: | ---------- | -------------------------------------------- |
+| :exclamation: | table_name | The name of the table whose identity we need |
+
 ### Examples
 ```sql
 INSERT INTO Person (name, age)
 VALUES ('John Smith', 30);
 
 SELECT SCOPE_IDENTITY();
+SELECT IDENT_CURRENT('Person')
+SELECT @@IDENTITY
 ```
 
 ### Output
