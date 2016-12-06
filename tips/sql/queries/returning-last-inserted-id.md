@@ -26,7 +26,7 @@ SELECT SCOPE_IDENTITY();
 ```
 
 ### Output
-![Results]()
+![Results](https://cloud.githubusercontent.com/assets/19519411/20929360/5c4cfb50-bb8f-11e6-9646-59cc909b026a.png)  
 
 ### References
 Get the last inserted row ID (with SQL statement) \([Stack Overflow](http://stackoverflow.com/questions/9477502/get-the-last-inserted-row-id-with-sql-statement/9477528#9477528)\)  
