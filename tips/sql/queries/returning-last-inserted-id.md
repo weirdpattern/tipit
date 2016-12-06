@@ -8,12 +8,9 @@ Allows the developer to return the identity of the last operation.
 SELECT SCOPE_IDENTITY()
 
 -- or
-
 SELECT IDENT_CURRENT(<table_name>)
 
-
 -- or
-
 SELECT @@IDENTITY
 ```
 
