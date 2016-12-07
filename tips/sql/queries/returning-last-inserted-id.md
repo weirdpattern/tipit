@@ -26,6 +26,10 @@ VALUES ('John Smith', 30);
 SELECT SCOPE_IDENTITY();
 SELECT IDENT_CURRENT('Person')
 SELECT @@IDENTITY
+
+-- returns 1
+-- returns 1
+-- returns 1
 ```
 
 ### Output
