@@ -8,18 +8,14 @@
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #393A34;
-	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+	font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
-	font-size: 0.95em;
 	line-height: 1.2em;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
+	font-size: 13px;
 
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
@@ -45,18 +41,20 @@ pre[class*="language-"] {
 	margin-bottom: 5px;
 	border: 1px dashed #dddddd;
 	background-color: white;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
+	font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: .2em;
-	padding-top: 1px; padding-bottom: 1px;
-	background: #f8f8f8;
-	border: 1px solid #dddddd;
+	border: 0;
+	padding: 1px .2em;
+	background-color: transparent;
+	font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+
+.tag {
+	font-size: 100%;
+	padding: .1em 0;
 }
 
 .token.comment,
@@ -121,46 +119,6 @@ pre[class*="language-"] {
 	font-style: italic;
 }
 
-pre.line-numbers {
-	position: relative;
-	padding-left: 3.8em;
-	counter-reset: linenumber;
-}
-
-pre.line-numbers > code {
-	position: relative;
-}
-
-.line-numbers .line-numbers-rows {
-	position: absolute;
-	pointer-events: none;
-	top: 0;
-	font-size: 100%;
-	left: -3.8em;
-	width: 3em; /* works for line-numbers below 1000 lines */
-	letter-spacing: -1px;
-	border-right: 1px solid #999;
-
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-
-}
-
-	.line-numbers-rows > span {
-		pointer-events: none;
-		display: block;
-		counter-increment: linenumber;
-	}
-
-		.line-numbers-rows > span:before {
-			content: counter(linenumber);
-			color: #999;
-			display: block;
-			padding-right: 0.8em;
-			text-align: right;
-		}
 .command-line-prompt {
 	border-right: 1px solid #999;
 	display: block;

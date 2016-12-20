@@ -19,33 +19,124 @@
               href="../../../static/css/overrides.css">
     </head>
     <body>        
-        <div class="container">
-            <div class="col-xs-12 col-md-12 toolbar">
-                <span class="fa fa-chevron-left toolbar-button"></span>
-            </div>
-            <div class="col-xs-12 col-md-12 content">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="../../index.html">asp.net</a></li>
-                    <li class="breadcrumb-item"><a href="../index.html">config</a></li>
-                </ol>
-                <div class="clearfix"></div>
-
-                <h1 class="title">Transforming your web.config</h1>
-                <h2 id="summary">Syntax</h2>
-
-                <div class="code" data-lang="javascript">
-                    <pre class="language-javascript line-numbers">
-                        <code>
-                            var a = 3;
-                        </code>
-                    </pre>
+        <footer class="container">
+            <header>
+                <div class="col-xs-12 col-md-12 toolbar">
+                    <span class="fa fa-chevron-left toolbar-button"></span>
+                    <div class="float-xs-right float-md-right">
+                        <span id="markup-switch" class="fa fa-code toolbar-button switch-enabled"></span>
+                    </div>
                 </div>
-            </div>
+            </header>
+            <article>
+                <div class="col-xs-12 col-md-12 content">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="no-markup" href="../../index.html">asp.net</a></li>
+                        <li class="breadcrumb-item"><a class="no-markup" href="../index.html">config</a></li>
+                    </ol>
+                    <div class="clearfix"></div>
+
+                    <section id="intro">
+                        <h1 class="title markup">Transforming your web.config</h1>
+                        <p>
+                            When you deploy a Web site, you often want some settings in the deployed application's
+                            <i>web.config</i> file to be different from the development <i>web.config</i> file.
+                            For example, you might want to disable debug options and change connection strings
+                            so that they point to different databases.
+                        </p>
+                    </section>
+
+                    <section id="syntax">
+                        <h2 class="markup">Syntax</h2>
+                        <div class="code markup" data-lang="aspnet">
+                            &lt;<mark class="required">element</mark>
+                                xdt:Transform="<mark class="required">operation</mark>"
+                                xdt:Locator="<mark class="required">condition</mark>"
+                            /&gt;
+                        </div>
+                    </section>
+
+                    <section id="examples">
+                        <h2 class="markup">Examples</h2>
+
+                        <div class="subsection">
+                            <b class="markup">web.config</b>
+                            <div class="code markup" data-lang="aspnet">
+                                &lt;configuration&gt;
+                                    &lt;connectionStrings&gt;
+                                        &lt;add name="DB"
+                                             connectionString="DataSource=(local)/SQLServerInstance;Database=Database;User Id=User;Password=Password;" /&gt;
+                                    &lt;/connectionStrings&gt;
+                                &lt;/configuration&gt;
+                            </div>
+                        </div>
+
+                        <div class="subsection">
+                            <b class="markup">dev transformation</b>
+                            <div class="code markup" data-lang="aspnet">
+                                &lt;configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform"&gt;
+                                    &lt;connectionStrings&gt;
+                                        &lt;add name="DB"
+                                             connectionString="DataSource=DevServer/SQLServerInstance;Database=Database;User Id=DevUser;Password=DevPassword;"
+                                             xdt:Transform="SetAttributes"
+                                             xdt:Locator="Match(name)" /&gt;
+                                    &lt;/connectionStrings&gt;
+                                &lt;/configuration&gt;
+                            </div>
+                        </div>
+
+                        <div class="subsection">
+                            <b class="markup">stage transformation</b>
+                            <div class="code markup" data-lang="aspnet">
+                                &lt;configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform"&gt;
+                                    &lt;connectionStrings&gt;
+                                        &lt;add name="DB"
+                                            connectionString="DataSource=StgServer/SQLServerInstance;Database=Database;User Id=StgUser;Password=StgPassword;"
+                                            xdt:Transform="SetAttributes"
+                                            xdt:Locator="Match(name)" /&gt;
+                                    &lt;/connectionStrings&gt;
+                                &lt;/configuration&gt;
+                            </div>
+                        </div>
+
+                        <div class="subsection">
+                            <b class="markup">prod transformation</b>
+                            <div class="code markup" data-lang="aspnet">
+                                &lt;configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform"&gt;
+                                    &lt;connectionStrings&gt;
+                                        &lt;add name="DB"
+                                            connectionString="DataSource=ProdServer/SQLServerInstance;Database=Database;User Id=ProdUser;Password=ProdPassword;"
+                                            xdt:Transform="SetAttributes"
+                                            xdt:Locator="Match(name)" /&gt;
+                                    &lt;/connectionStrings&gt;
+                                &lt;/configuration&gt;
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="references">
+                        <h2 class="markup">References</h2>
+                        <ul class="no-bullets">
+                            <li><a class="markup" href="https://msdn.microsoft.com/en-us/library/dd465326(v=vs.110).aspx">Web.config transformation syntax</a></li>
+                            <li><a class="markup" href="https://msdn.microsoft.com/en-us/library/dd465318(v=vs.100).aspx">Transform web.config when deploying a web application</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </article>
+            <footer>
+                <div class="col-xs-12 col-md-12 toolbar">
+                    <div class="float-xs-right float-md-right">
+                        <span class="date">December 20, 2016</span>
+                    </div>
+                </div>
+            </footer>
         </div>
+
         <script src="../../../static/js/jquery.min.js"></script>
         <script src="../../../static/js/tether.min.js"></script>
         <script src="../../../static/js/bootstrap.min.js"></script>
         <script src="../../../static/js/prism.js"></script>
+        <script src="../../../static/js/blog.js"></script>
     </body>
 
 </html>

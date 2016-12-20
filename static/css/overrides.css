@@ -10,13 +10,14 @@ h1 {
     font-weight: 300;
 }
 
-h1:before {
+h1.markup::before {
     content: '# ';
     color: #C0C0C0;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 1px;
     vertical-align: 20%;
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
 }
 
 h1.title {
@@ -27,14 +28,32 @@ h2 {
     color: #FF6A00;
     font-size: 24px;
     font-weight: 100;
+    margin: 30px 0px 15px 0px;
 }
 
-h2:before {
+h2.markup::before {
     content: '## ';
     color: #C0C0C0;
     font-size: 12px;
     letter-spacing: 1px;
     vertical-align: 20%;
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+
+h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0px 15px 0px;
+}
+
+h3.markup::before {
+    content: '### ';
+    color: #C0C0C0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    vertical-align: 10%;
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
 }
 
 a, a:visited {
@@ -45,6 +64,53 @@ a:hover, a:active {
     color: #86B300;
     text-decoration: none;
     border-bottom: 1px dotted #86B300;
+}
+
+a.markup::before {
+    content: '[';
+    color: #C0C0C0;
+    font-weight: 500;
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+
+a.markup::after {
+    content: '](' attr(href) ')';
+    color: #C0C0C0;
+    font-weight: 500;
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+
+b.markup::before, b.markup::after {
+    content: '**';
+    color: #C0C0C0;
+    font-weight: 500;
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+
+mark {
+    margin: 0 2px;
+    padding: 1px 3px;
+}
+
+mark.required {
+    border: 1px solid #FF3333;
+    background-color: #FFCCCC;
+}
+
+ul.no-bullets  {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer > div.toolbar {
+    padding: 2px 10px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.container {
+    padding: 0px;
 }
 
 .breadcrumb {
@@ -59,7 +125,7 @@ a:hover, a:active {
 
 .toolbar {
     padding: 10px 20px;
-    height: 40px;
+    height: 50px;
     background-color: #39434D;
 }
 
@@ -70,40 +136,52 @@ a:hover, a:active {
 
 .toolbar-button:hover {
     color: #86B300;
+    cursor: pointer;
 }
 
-:not(pre) > code {
-    padding: 0px;
-    color: #FF6A00;
-    font-family: 'Roboto Mono';
-    background-color: transparent;
+.toolbar-social {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 5px;
 }
 
-:not(pre) > code:before, :not(pre) > code:after {
+.toolbar-social:hover {
+    color: #86B300;
+    cursor: pointer;
+}
+
+:not(pre) > code.markup::before, :not(pre) > code.markup::after {
     content: '`';
-    color: #FF6A00;
+    color: #C0C0C0;
     font-weight: 500;
-    font-family: 'Roboto Mono';
-}
-
-pre > code {
-    font-family: 'Roboto Mono';
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
 }
 
 .code {
     padding: 0px;
 }
 
-.code:before {
+.code.markup::before {
     content: '```'attr(data-lang);
     color: #C0C0C0;
     font-size: 12px;
-    font-family: 'Roboto Mono';
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
 }
 
-.code:after {
+.code.markup::after {
     content: '```';
     color: #C0C0C0;
     font-size: 12px;
-    font-family: 'Roboto Mono';
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+
+.subsection {
+    margin-top: 20px;
+}
+
+.date {
+    color: #FFFFFF;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
