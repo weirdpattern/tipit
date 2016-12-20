@@ -7,7 +7,7 @@ html, body {
 h1 {
     color: #FF6A00;
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 h1.markup::before {
@@ -27,7 +27,7 @@ h1.title {
 h2 {
     color: #FF6A00;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 200;
     margin: 30px 0px 15px 0px;
 }
 
@@ -69,19 +69,28 @@ a:hover, a:active {
 a.markup::before {
     content: '[';
     color: #C0C0C0;
+    font-size: 12px;
     font-weight: 500;
     font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
 }
 
 a.markup::after {
-    content: '](' attr(href) ')';
+    content: '](' attr(href) ') ';
     color: #C0C0C0;
+    font-size: 12px;
     font-weight: 500;
     font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
 }
 
 b.markup::before, b.markup::after {
     content: '**';
+    color: #C0C0C0;
+    font-weight: 500;
+    font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+
+i.markup::before, i.markup::after {
+    content: '_';
     color: #C0C0C0;
     font-weight: 500;
     font-family: "Roboto Mono", "Consolas", "Bitstream Vera Sans Mono", Courier, monospace;
