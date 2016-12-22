@@ -91,7 +91,7 @@ SELECT D.deptid
 ![Output](https://cloud.githubusercontent.com/assets/19519411/21430146/89a82e90-c827-11e6-94f2-5ac54409b02e.png)  
 
 ### References  
-Usin APPLY \([https://technet.microsoft.com/en-us/library/ms175156(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms175156.aspx)\)
+Usin APPLY \([https://technet.microsoft.com/en-us/library/ms175156(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms175156.aspx)\)  
 INNER JOIN vs. CROSS APPLY \([https://explainextended.com/2009/07/16/inner-join-vs-cross-apply/](https://explainextended.com/2009/07/16/inner-join-vs-cross-apply/)\)  
 
 ### Tags
