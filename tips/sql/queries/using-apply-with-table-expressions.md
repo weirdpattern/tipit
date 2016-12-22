@@ -6,10 +6,17 @@ The table-valued function acts as the right input and the outer table expression
 evaluated for each row from the left input and the rows produced are combined for the final output. The list of columns produced 
 by the APPLY operator is the set of columns in the left input followed by the list of columns returned by the right input.  
 
+This is very useful when you want to mix and match tables with 1 to n relationships and you only want a couple of records from 
+the table on the right (like  a TOP 1 for instance).  
+
 ### Syntax
 ```sql
-<CROSS | OUTER> APPLY <table_valued_function>
+[CROSS | OUTER] APPLY <table_valued_function>
 ```  
+
+|               | Option                | Description                                                                   |
+| :-----------: | --------------------- | ----------------------------------------------------------------------------- |
+| :exclamation: | table_valued_function | Can be a function that returns a table or a simple query with complex filters |
 
 ### Examples
 
