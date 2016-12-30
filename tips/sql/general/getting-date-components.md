@@ -27,7 +27,7 @@ DECLARE @Date DATETIME = SYSUTCDATETIME();
        ,RIGHT('000'       + RTRIM(DATEPART(millisecond, @Date)), 3) AS 'Millisecond'
        ,RIGHT('000000'    + RTRIM(DATEPART(microsecond, @Date)), 6) AS 'Microsecond'
        ,RIGHT('000000000' + RTRIM(DATEPART(nanosecond, @Date)), 2)  AS 'Nanosecond'
-	   ,RIGHT('00'        + RTRIM(DATEPART(quarter, @Date)), 2)     AS 'Quarter'
+	 ,RIGHT('00'        + RTRIM(DATEPART(quarter, @Date)), 2)     AS 'Quarter'
        ,RIGHT('000'       + RTRIM(DATEPART(dayofyear, @Date)), 3)   AS 'Day of Year'
        ,RIGHT('00'        + RTRIM(DATEPART(week, @Date)), 2)        AS 'Week'
        ,RIGHT('00'        + RTRIM(DATEPART(weekday, @Date)), 2)     AS 'Weekday';
