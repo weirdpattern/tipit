@@ -11,12 +11,13 @@ LEFT(<string> + <character>, <desire_length>)
 
 ### Example
 ```sql
-SELECT RIGHT('________' + 'Hello', 8) 'PADDED RIGHT'
-      ,LEFT('Hello' + '________', 8)  'PADDED LEFT';
+DECLARE @Message VARCHAR(5) = 'Hello'; 
+ SELECT RIGHT('________' + @Message, 8) 'PADDED RIGHT'
+       ,LEFT(@Message + '________', 8)  'PADDED LEFT';
 ```
 
 ### Output
-![Output](https://cloud.githubusercontent.com/assets/19519411/21567777/76fcc550-ce74-11e6-90bd-079f14a9e0fc.png)
+![Output](https://cloud.githubusercontent.com/assets/19519411/21567822/ecc3888c-ce74-11e6-9aa6-c30e7a0579f4.png)
 
 ### References
 RIGHT \([https://msdn.microsoft.com/en-us/library/ms177532.aspx](https://msdn.microsoft.com/en-us/library/ms177532.aspx)\)  
