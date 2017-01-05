@@ -79,9 +79,6 @@ $ git status -uall
   nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-### Output
-![GitStatus]()
-
 ### References
 Get inside untracked directories for status \([https://medium.com/@porteneuve/30-git-cli-options-you-should-know-about-15423e8771df#.6mrauk82t](https://medium.com/@porteneuve/30-git-cli-options-you-should-know-about-15423e8771df#.6mrauk82t)\)    
 Git status \([https://git-scm.com/docs/git-status](https://git-scm.com/docs/git-status)\)  

@@ -1,4 +1,4 @@
-## Git Maintenance (12)
+## Git Maintenance (13)
 
 - [Annotating changes using git blame](annotating-changes.md)
 - [Change author information recorded in existing commits](change-author-information.md)
@@ -9,6 +9,7 @@
 - [Renaming a remote repository](renaming-remote-repository.md)
 - [Push a change without disrupting everyone else's work](push-with-lease.md)
 - [Rollback the last local and remote commit](rollback-last-commit.md)
+- [Show remote information](show-remote-information.md)
 - [Show status of all files in a directory](show-status-of-all-files.md)
 - [Multiple ways to undo changes in git](undoing-changes-in-branch.md)
 - [Update a forked repository with upstream data](update-forked-repository.md)
