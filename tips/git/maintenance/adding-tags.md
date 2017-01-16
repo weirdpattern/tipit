@@ -8,11 +8,11 @@ Allows the developer to tag specific points in history as being important.
 git tag [-a] <tag_name> [-m <message>]
 ```
 
-|               | Option      | Description                           |
-| :-----------: | ----------- | ------------------------------------- |
-|               | a           | Mark this as an annotated tag in git. |
-| :exclamation: | tag_name    | The name of the tag to be created     |
-|               | m <message> | The tagging message to be used.       |
+|               | Option        | Description                           |
+| :-----------: | ------------- | ------------------------------------- |
+|               | a             | Mark this as an annotated tag in git. |
+| :exclamation: | tag_name      | The name of the tag to be created     |
+|               | m \<message\> | The tagging message to be used.       |
 
 ### Examples
 ```bash
