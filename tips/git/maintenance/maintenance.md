@@ -1,5 +1,6 @@
-## Git Maintenance (14)
+## Git Maintenance (15)
 
+- [Adding tags](adding-tags.md)
 - [Annotating changes using git blame](annotating-changes.md)
 - [Change author information recorded in existing commits](change-author-information.md)
 - [Clean up a repository](clean-up-repository.md)
