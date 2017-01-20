@@ -1,4 +1,4 @@
-## Extending types through unions
+## Extending types through intersections
 
 ### Summary
 Allows the developer to create complex types by extending existing ones.  
