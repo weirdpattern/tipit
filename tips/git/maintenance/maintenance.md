@@ -1,4 +1,4 @@
-## Git Maintenance (16)
+## Git Maintenance (17)
 
 - [Adding tags](adding-tags.md)
 - [Annotating changes using git blame](annotating-changes.md)
@@ -16,6 +16,7 @@
 - [Multiple ways to undo changes in git](undoing-changes-in-branch.md)
 - [Update a forked repository with upstream data](update-forked-repository.md)
 - [Using git atttributes](using-git-attributes.md)
+- [Using git cherry](using-git-cherry.md)
 
 ### Tags
 [#tip](../../tips.md)  
