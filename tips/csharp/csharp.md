@@ -2,6 +2,7 @@
 
 - [Attributes](attributes/attributes.md)
 - [Concurrency](concurrency/concurrency.md)
+- [Debugging](debugging/debugging.md)
 - [General](general/general.md)
 - [Linq](linq/linq.md)
 

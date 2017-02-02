@@ -29,7 +29,7 @@ Parallel.ForEach(numbers, (num) => {
 ![Output](https://cloud.githubusercontent.com/assets/19519411/20269032/1fdb4c5c-aa47-11e6-9237-8a29edb23c04.png)  
 
 ### References
-How to: Write a Simple Parallel.ForEach Loop \([https://msdn.microsoft.com/en-us/library/dd460720(v=vs.110).aspx](https://msdn.microsoft.com/en-us/library/dd460720(v=vs.110).aspx)\)   
+How to: Write a Simple Parallel.ForEach Loop \([https://msdn.microsoft.com/en-us/library/dd460720.aspx](https://msdn.microsoft.com/en-us/library/dd460720.aspx)\)   
 
 ### Tags
 [#tip](../../tips.md)  
