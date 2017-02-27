@@ -1,6 +1,7 @@
 ## Git Maintenance (17)
 
 - [Adding tags](adding-tags.md)
+- [Amend a commit](amend-a-commit.md)
 - [Annotating changes using git blame](annotating-changes.md)
 - [Change author information recorded in existing commits](change-author-information.md)
 - [Clean up a repository](clean-up-repository.md)
