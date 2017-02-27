@@ -1,4 +1,4 @@
-## Git Maintenance (17)
+## Git Maintenance (18)
 
 - [Adding tags](adding-tags.md)
 - [Amend a commit](amend-a-commit.md)
